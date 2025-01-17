@@ -26,7 +26,7 @@ A **neural network** is a computational model inspired by the way biological neu
    - **Hidden Layers:** Perform computations and extract features.
    - **Output Layer:** Produces the final output, such as a classification or regression result.
 
-3. **1.3 Weights and Biases:**
+3. **1.3 [ Weights and Biases](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-neural-network-overview-of-ai-architectures/blob/main/microlesson-01/Weights_and_Biases_in_Neural_Networks.md)**
    - **Weights:** Represent the strength of connections between neurons.
    - **Biases:** Adjust the output along with the weighted input.
 
