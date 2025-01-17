@@ -21,7 +21,7 @@ A **neural network** is a computational model inspired by the way biological neu
    - The basic unit of a neural network.
    - A neuron takes inputs, applies a weight, adds a bias, and passes the result through an activation function to produce an output.
 
-2. **1.2 Layers:**
+2. **1.2 [Layers](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-neural-network-overview-of-ai-architectures/blob/main/microlesson-01/Layers_in_Neural_Network.md)**
    - **Input Layer:** Receives raw data for the network.
    - **Hidden Layers:** Perform computations and extract features.
    - **Output Layer:** Produces the final output, such as a classification or regression result.
