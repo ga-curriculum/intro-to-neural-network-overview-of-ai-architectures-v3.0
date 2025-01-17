@@ -1,5 +1,5 @@
 
-## Activation Functions in Neural Networks
+## Activation Functions 
 
 An **activation function** introduces non-linearity into a neural network. It decides whether a neuron should be activated or not by transforming the weighted sum of inputs and bias into an output. This enables the network to learn complex patterns and relationships in the data.
 
