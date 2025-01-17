@@ -30,7 +30,7 @@ A **neural network** is a computational model inspired by the way biological neu
    - **Weights:** Represent the strength of connections between neurons.
    - **Biases:** Adjust the output along with the weighted input.
 
-4. **1.4 Activation Function:**
+4. **1.4 [Activation Function](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-neural-network-overview-of-ai-architectures/blob/main/microlesson-01/Activation_Functions_in_Neural_Networks.md)**
    - Introduces non-linearity to the network, allowing it to learn complex patterns.
    - Examples: Sigmoid, ReLU, Tanh, Softmax.
 
