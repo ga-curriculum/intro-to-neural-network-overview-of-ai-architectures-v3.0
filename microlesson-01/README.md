@@ -17,7 +17,7 @@ A **neural network** is a computational model inspired by the way biological neu
 
 ## 1 Key Concepts
 
-1. **1.1 Neuron (or Node):**
+1. **1.1 [Neuron (or Node)](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-neural-network-overview-of-ai-architectures/blob/main/microlesson-01/Nuron%20README.md)**
    - The basic unit of a neural network.
    - A neuron takes inputs, applies a weight, adds a bias, and passes the result through an activation function to produce an output.
 
@@ -35,7 +35,7 @@ A **neural network** is a computational model inspired by the way biological neu
    - Examples: Sigmoid, ReLU, Tanh, Softmax.
 
 5. **1.5 Feedforward:**
-   - The process where input data flows through the network from the input layer to the output layer.
+   - The process where input data flows through the network from the input layer to the output layer.(Will be discussed in detail)
 
 6. **1.6 Backpropagation:**
    - A learning algorithm used to train the network.
@@ -64,10 +64,8 @@ A **neural network** is a computational model inspired by the way biological neu
    - Designed for sequential data, such as time series or text.
    - Maintains a memory of previous inputs.
 
-4. **2.4 Generative Adversarial Networks (GANs):**
-   - Comprise a generator and discriminator to create realistic synthetic data.
 
-5. **2.5 Transformer Networks:**
+4. **2.5 Transformer Networks:**
    - Used for natural language processing (NLP) tasks.
    - Examples: BERT, GPT.
 
