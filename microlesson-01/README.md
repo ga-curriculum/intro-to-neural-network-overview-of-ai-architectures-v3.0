@@ -1,6 +1,6 @@
 <h1>
   <span class="headline">[Intro to Nural Network +Overview of AI Architecture]</span>
-  <span class="subhead">tktk Microlesson 01</span>
+  <span class="subhead">Microlesson 01</span>
 </h1>
 
 **Learning objective:** By the end of this lesson, students will be able to 
