@@ -1,6 +1,6 @@
 <h1>
   <span class="headline">[Intro to Nural Network +Overview of AI Architecture]</span>
-  <span class="subhead">Microlesson 01</span>
+  <span class="subhead"></span>
 </h1>
 
 **Learning objective:** ## Learning Objectives
