@@ -3,7 +3,7 @@
   <span class="subhead"></span>
 </h1>
 
-**Learning objective:** ## Learning Objectives
+**Learning objective:** 
 
 By the end of this lesson, participants will be able to understand:
 
