@@ -38,15 +38,13 @@ A neural network is organized into **layers**, where each layer is a collection 
 ### Example of Layer Connections
 
 1. **Input Layer:**
-   - Receives data: \( x_1, x_2, x_3, \dots, x_n \).
+   - Receives data: x1, x2, x3, ..., xn.
 
 2. **Hidden Layers:**
-   - Transform the input into features:
-     \[
-     h_1 = f(w_{1,1} \cdot x_1 + w_{1,2} \cdot x_2 + b_1)
-     \]
-     - \( f \): Activation function.
+   -Transform the input into features:
+    h1 = f(w1,1 × x1 + w1,2 × x2 + b1)
 
+   f: Activation function.
 3. **Output Layer:**
    - Combines features from the last hidden layer and generates the final result.
 
@@ -86,22 +84,4 @@ A neural network is organized into **layers**, where each layer is a collection 
 
 ---
 
-### Visualization of Layer Connections
 
-For a simple network:
-
-**Input Layer:** 3 neurons → **Hidden Layer:** 4 neurons → **Output Layer:** 2 neurons
-
-Diagram:
-
-```
-Input Layer      Hidden Layer      Output Layer
-    O                O                  O
-    O       →        O        →         O
-    O                O
-                     O
-```
-
----
-
-By understanding and organizing layers effectively, neural networks can tackle a wide range of problems, from image recognition to time-series forecasting.
