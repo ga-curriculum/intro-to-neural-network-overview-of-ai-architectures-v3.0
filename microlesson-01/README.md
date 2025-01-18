@@ -34,9 +34,9 @@ A **neural network** is a computational model inspired by the way biological neu
      [source](https://www.researchgate.net/publication/299474560_Deep_Learning_for_Population_Genetic_Inference)
 ### The image is an example of a deep neural network with two hidden layers. 
 
-     -The first layer is the input data (each dataset has 5 statistics).  
-     -The last layer predicts the 2 response variables.  
-     -The last node in each input layer (+1) represents the bias term.  
+     The first layer is the input data (each dataset has 5 statistics).  
+     The last layer predicts the 2 response variables.  
+     The last node in each input layer (+1) represents the bias term.  
 
    - **Input Layer:** Receives raw data for the network.
    
