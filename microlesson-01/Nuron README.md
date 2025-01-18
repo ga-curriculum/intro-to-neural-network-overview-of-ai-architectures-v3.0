@@ -37,18 +37,18 @@ Consider a neuron with:
 - Activation function: ReLU (Rectified Linear Unit)
 
 ### Step 1: Compute Weighted Sum
--z = (0.2 × 0.5) + (0.4 × 0.8) + 0.1
+ z = (0.2 × 0.5) + (0.4 × 0.8) + 0.1
 
--z = 0.1 + 0.32 + 0.1 = 0.52
+ z = 0.1 + 0.32 + 0.1 = 0.52
 
 ### Step 2: Apply Activation Function
 
--ReLU activation function:
--f(z) = max(0, z)
+ ReLU activation function:
+ f(z) = max(0, z)
 
--a = max(0, 0.52) = 0.52
+ a = max(0, 0.52) = 0.52
 
--The neuron's output is a = 0.52.
+ The neuron's output is a = 0.52.
 
 ---
 
