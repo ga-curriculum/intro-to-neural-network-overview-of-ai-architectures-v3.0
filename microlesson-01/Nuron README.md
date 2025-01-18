@@ -31,10 +31,10 @@ A single neuron performs the following steps:
 
 Consider a neuron with:
 
- -Inputs: x1 = 0.5, x2 = 0.8
- -Weights: w1 = 0.2, w2 = 0.4
- -Bias: b = 0.1
-- Activation function: ReLU (Rectified Linear Unit)
+  Inputs: x1 = 0.5, x2 = 0.8
+  Weights: w1 = 0.2, w2 = 0.4
+  Bias: b = 0.1
+  Activation function: ReLU (Rectified Linear Unit)
 
 ### Step 1: Compute Weighted Sum
  z = (0.2 × 0.5) + (0.4 × 0.8) + 0.1
