@@ -32,6 +32,30 @@ A **neural network** is a computational model inspired by the way biological neu
 2. **1.2 [Layers](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-neural-network-overview-of-ai-architectures/blob/main/microlesson-01/Layers_in_Neural_Network.md)**
     ![Layers](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-18%20164706.png)
      [source](https://www.researchgate.net/publication/299474560_Deep_Learning_for_Population_Genetic_Inference)
+### The image indicate teh example of a Deep Neural Network
+
+An example of a deep neural network with two hidden layers. 
+
+- The first layer is the input data (each dataset has 5 statistics).  
+- The last layer predicts the 2 response variables.  
+- The last node in each input layer (+1) represents the bias term.  
+
+**Network Structure:**
+- Number of layers: **L = 4**  
+- Number of nodes (excluding biases) in each layer:  
+  - Input layer (\( u_1 \)): 5  
+  - First hidden layer (\( u_2 \)): 3  
+  - Second hidden layer (\( u_3 \)): 3  
+  - Output layer (\( u_4 \)): 2  
+
+**Network Structure:**
+- Number of layers: **L = 4**  
+- Number of nodes (excluding biases) in each layer:  
+  - Input layer (\( u_1 \)): 5  
+  - First hidden layer (\( u_2 \)): 3  
+  - Second hidden layer (\( u_3 \)): 3  
+  - Output layer (\( u_4 \)): 2  
+
    - **Input Layer:** Receives raw data for the network.
    - **Hidden Layers:** Perform computations and extract features.
    - **Output Layer:** Produces the final output, such as a classification or regression result.
