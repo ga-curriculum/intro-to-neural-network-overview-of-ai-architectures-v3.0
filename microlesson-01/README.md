@@ -89,12 +89,16 @@ A **neural network** is a computational model inspired by the way biological neu
 
  **3.1 Image Recognition:**
    - Identifying objects, faces, or scenes in images.
+   
  **3.2 Natural Language Processing (NLP):**
    - Sentiment analysis, machine translation, text generation.
+   
  **3.2 Speech Recognition:**
    - Converting speech into text.
+   
  **3.4 Autonomous Vehicles:**
    - Object detection and decision-making.
+   
  **3.5 Healthcare:**
    - Diagnosing diseases and predicting patient outcomes.
 
