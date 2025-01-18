@@ -1,5 +1,5 @@
 
-## Layers in a Neural Network
+# Layers in a Neural Network
 
 A neural network is organized into **layers**, where each layer is a collection of neurons (or nodes) that process input data and pass their outputs to the next layer. Layers play a critical role in determining the network's architecture and its ability to learn and generalize.
 
