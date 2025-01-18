@@ -3,7 +3,15 @@
   <span class="subhead">Microlesson 01</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to 
+**Learning objective:** ## Learning Objectives
+
+By the end of this lesson, participants will be able to understand:
+
+- The basics and key components of neural networks.
+- Different types of neural networks and their functions.
+- Core concepts like feedforward, backpropagation, and activation functions.
+- Real-world applications of neural networks in AI, NLP, and autonomous systems.
+- How data flows through a neural network from input to output.
 
 ![Nural Network](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-17%20173208.png)
 
