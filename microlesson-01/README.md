@@ -30,6 +30,8 @@ A **neural network** is a computational model inspired by the way biological neu
    - A neuron takes inputs, applies a weight, adds a bias, and passes the result through an activation function to produce an output.
 
 2. **1.2 [Layers](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-neural-network-overview-of-ai-architectures/blob/main/microlesson-01/Layers_in_Neural_Network.md)**
+    ![Layers](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-18%20164706.png)
+     [source](https://www.researchgate.net/publication/299474560_Deep_Learning_for_Population_Genetic_Inference)
    - **Input Layer:** Receives raw data for the network.
    - **Hidden Layers:** Perform computations and extract features.
    - **Output Layer:** Produces the final output, such as a classification or regression result.
