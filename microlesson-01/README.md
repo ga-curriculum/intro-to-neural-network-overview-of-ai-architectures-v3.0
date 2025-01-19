@@ -263,7 +263,6 @@ A **Convolutional Neural Network (CNN)** is a specialized type of neural network
 
 ---
 
-Would you like an example implementation of a CNN in Python using TensorFlow or PyTorch? Let me know!
 
 
  # 2.3 Recurrent Neural Networks (RNN)
@@ -355,13 +354,128 @@ Suppose we are training an RNN for text generation:
 
 ---
 
-Would you like an example implementation of an RNN in Python? Let me know!
 
+ # 2.4 Transformer Networks Architecture 
+![Transformer](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-19%20174629.png)
+[Source](https://arxiv.org/pdf/1706.03762)
 
+# Transformer Architecture
 
- **2.4 Transformer Networks:**
-   - Used for natural language processing (NLP) tasks.
-   - Examples: BERT, GPT.
+The **Transformer** architecture is a deep learning model introduced in the paper *"Attention Is All You Need"* by Vaswani et al. (2017). It has revolutionized natural language processing (NLP) and various other fields, replacing traditional recurrent and convolutional models for sequence-to-sequence tasks. Transformers rely entirely on **self-attention mechanisms** to process sequential data, making them highly parallelizable and efficient.
+
+---
+
+## Key Features of the Transformer
+
+1. **Self-Attention Mechanism**:
+   - Captures relationships between words in a sequence, regardless of their distance from one another.
+   - Focuses on relevant parts of the input sequence while processing each word or token.
+
+2. **Parallelization**:
+   - Unlike recurrent neural networks (RNNs), Transformers process the entire input sequence simultaneously, significantly speeding up training.
+
+3. **Positional Encoding**:
+   - Since Transformers lack recurrence, positional encodings are added to input embeddings to preserve information about the sequence order.
+
+4. **Scalability**:
+   - Transformers can scale to very large datasets and model sizes, making them suitable for large-scale applications like GPT and BERT.
+
+---
+
+## Components of the Transformer
+
+### 1. Input Embedding
+- Converts each input token into a continuous vector representation.
+- Includes **positional encoding** to add information about the sequence order.
+
+---
+
+### 2. Encoder
+- A stack of identical layers, each with two main components:
+  1. **Multi-Head Self-Attention**:
+     - Allows each word to attend to every other word in the sequence.
+     - Captures contextual information for each word.
+  2. **Feedforward Neural Network**:
+     - Applies two fully connected layers with a non-linear activation in between for added complexity.
+  - Includes **layer normalization** and **residual connections** to stabilize training.
+
+---
+
+### 3. Decoder
+- A stack of identical layers with three main components:
+  1. **Masked Multi-Head Self-Attention**:
+     - Ensures the decoder can only attend to previous tokens to prevent "cheating" during training.
+  2. **Encoder-Decoder Attention**:
+     - Allows the decoder to attend to the encoder's output for context.
+  3. **Feedforward Neural Network**:
+     - Similar to the encoder, applies two fully connected layers with activation functions.
+
+---
+
+### 4. Multi-Head Attention
+- Splits the input into multiple "heads" to focus on different parts of the sequence simultaneously.
+- Combines the outputs of all heads to form the final attention representation.
+- Key components:
+  - Query, Key, and Value matrices are computed from the input.
+  - Attention scores determine how much attention each word pays to others in the sequence.
+
+---
+
+### 5. Positional Encoding
+- Adds positional information to input embeddings using sine and cosine functions or learned embeddings.
+- Allows the model to understand the order of tokens in the sequence.
+
+---
+
+### 6. Output Layer
+- Generates the final predictions, such as translated sentences or next-token probabilities.
+- Typically includes a **softmax** layer for probability distributions.
+
+---
+
+## Strengths of the Transformer
+
+1. **Parallelization**:
+   - Processes sequences in parallel, making it faster than RNNs.
+2. **Long-Range Dependency Handling**:
+   - Effectively captures dependencies between distant words or tokens in a sequence.
+3. **Scalability**:
+   - Can handle large datasets and be extended to billions of parameters (e.g., GPT-3, BERT).
+
+---
+
+## Applications of the Transformer
+
+1. **Machine Translation**:
+   - Transforms sentences from one language to another.
+   - Example: Google's Translate uses transformer-based models.
+
+2. **Text Generation**:
+   - Generates coherent and contextually relevant text.
+   - Example: GPT (Generative Pre-trained Transformer).
+
+3. **Text Classification**:
+   - Sentiment analysis, spam detection, or topic categorization.
+
+4. **Question Answering**:
+   - Models like BERT and T5 extract answers from a given context.
+
+5. **Speech and Vision**:
+   - Applied in speech recognition and vision tasks, such as Vision Transformers (ViTs).
+
+---
+
+## Limitations
+
+1. **Computational Expense**:
+   - Requires significant memory and computational power, especially for long sequences.
+2. **Training Data**:
+   - Needs large datasets to achieve high performance.
+3. **Interpretability**:
+   - Understanding how attention weights contribute to predictions can be challenging.
+
+---
+
 
 ---
 
