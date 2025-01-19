@@ -1,6 +1,6 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">[Intro to Neural Network + Overview of Architectures]</span>
 </h1>
 
 ## About
@@ -13,8 +13,8 @@ tktk Write a short but descriptive summary of the content in this module.
 | ------ |:------------------:| ------ |
 | [Setup](./setup/README.md)                          | -- | Set up the development environment. |
 | [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
+| [Intro to Neural Network + Overview of AI Architecture](./microlesson-01/README.md) | -- | tktk Skills to cover                |
+| [ Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
 | **Total content**                                   | -- |                                     |
 
 ## References
