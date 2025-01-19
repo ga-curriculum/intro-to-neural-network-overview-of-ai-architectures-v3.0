@@ -166,12 +166,196 @@ Common activation functions include:
 
 
  **2.2 Convolutional Neural Networks (CNN):**
-   - Specialized for image data.
-   - Extract features using convolutional layers.
+ ![CNN](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-19%20171849.png)
+ 
+ [source](https://www.researchgate.net/publication/336805909_A_High-Accuracy_Model_Average_Ensemble_of_Convolutional_Neural_Networks_for_Classification_of_Cloud_Image_Patches_on_Small_Datasets)
+ 
+  # Convolutional Neural Network (CNN)
+
+A **Convolutional Neural Network (CNN)** is a specialized type of neural network primarily designed for processing structured grid-like data, such as images or time series. CNNs are highly effective for tasks involving spatial hierarchies and patterns, making them widely used in computer vision and image-related problems.
+
+---
+
+## Key Features of CNNs
+
+1. **Convolutional Layers**:
+   - Perform feature extraction by applying filters (kernels) to the input data.
+   - Filters slide over the input to detect local patterns, such as edges, textures, or colors.
+
+2. **Pooling Layers**:
+   - Downsample the feature maps to reduce dimensionality while retaining essential information.
+   - Types of pooling:
+     - **Max Pooling**: Selects the maximum value in a region.
+     - **Average Pooling**: Computes the average value in a region.
+
+3. **Fully Connected Layers**:
+   - Connect all neurons in one layer to all neurons in the next.
+   - These layers are used for final classification or regression tasks.
+
+4. **Activation Functions**:
+   - Introduce non-linearity into the model to learn complex patterns.
+   - Common choices include ReLU (Rectified Linear Unit).
+
+---
+
+## How CNN Works
+
+1. **Input**:
+   - CNNs take structured data as input, like an image represented by pixel values (e.g., a 3D matrix for RGB images).
+
+2. **Convolution**:
+   - Filters (kernels) slide across the input, performing element-wise multiplication and summation to produce a **feature map**.
+   - Captures spatial relationships in the data.
+
+3. **Pooling**:
+   - Reduces the size of feature maps while preserving critical features, helping to prevent overfitting and speeding up computation.
+
+4. **Flattening**:
+   - Converts the pooled feature maps into a 1D vector to feed into the fully connected layers.
+
+5. **Output**:
+   - The final output layer predicts the target (e.g., image classification, object detection).
+
+---
+
+## Applications of CNNs
+
+1. **Image Classification**:
+   - Recognizing objects in an image (e.g., detecting whether an image contains a dog or a cat).
+
+2. **Object Detection**:
+   - Identifying and localizing multiple objects in an image.
+
+3. **Image Segmentation**:
+   - Dividing an image into meaningful regions for tasks like medical imaging.
+
+4. **Video Processing**:
+   - Action recognition or video classification.
+
+5. **Natural Language Processing**:
+   - Analyzing text data in certain tasks, such as sentence classification or sentiment analysis.
+
+---
+
+## Advantages
+
+1. **Efficient Feature Extraction**:
+   - Automatically detects hierarchical patterns (edges, shapes, and objects).
+
+2. **Reduced Parameters**:
+   - Weight sharing in convolutional layers reduces the number of parameters compared to traditional fully connected networks.
+
+3. **Scalability**:
+   - Effective for large datasets and complex tasks.
+
+---
+
+## Limitations
+
+1. **Computationally Expensive**:
+   - Requires significant computational resources, especially for deep architectures.
+
+2. **Data Dependency**:
+   - Requires large amounts of labeled data to perform well.
+
+3. **Interpretability**:
+   - Difficult to interpret or explain the learned features and predictions.
+
+---
+
+Would you like an example implementation of a CNN in Python using TensorFlow or PyTorch? Let me know!
+
 
  **2.3 Recurrent Neural Networks (RNN):**
-   - Designed for sequential data, such as time series or text.
-   - Maintains a memory of previous inputs.
+ ![RNN](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-19%20173152.png)
+ [RNN](https://www.researchgate.net/publication/361681838_Sentiment_Analysis_of_Public_Social_Media_as_a_Tool_for_Health_-Related_Topics)
+ 
+
+A **Recurrent Neural Network (RNN)** is a type of neural network designed to handle sequential data by introducing the concept of **memory**. RNNs use loops to pass information from one step of the sequence to the next, allowing the network to retain context and model dependencies across time steps.
+
+---
+
+## Key Features of RNNs
+
+1. **Sequential Data Handling**:
+   - RNNs are designed to process sequential data, such as text, speech, or time-series data.
+   - Each time step in the input sequence influences the current computation and is passed forward as context for the next time step.
+
+2. **Hidden State**:
+   - The hidden state acts as the "memory" of the network, carrying information from previous time steps.
+   - At each time step, the hidden state is updated based on:
+     - The input at the current time step.
+     - The hidden state from the previous time step.
+
+3. **Recurrent Connections**:
+   - Neurons in the hidden layer have recurrent connections that loop back to themselves, enabling the network to retain context across the sequence.
+
+4. **Output at Each Time Step**:
+   - RNNs can produce:
+     - An output at each time step (e.g., predicting the next word in a sentence).
+     - A single output after processing the entire sequence (e.g., sentiment analysis).
+
+---
+
+## How RNNs Work
+
+1. **Hidden State Update**:
+   - The hidden state at the current time step is calculated using:
+     - The input at the current time step.
+     - The hidden state from the previous time step.
+     - A set of learnable weights and biases.
+
+2. **Output at Each Time Step**:
+   - The output at a given time step is computed using the updated hidden state and another set of weights and biases.
+
+3. **Recurrent Process**:
+   - The RNN processes data one step at a time, using the context from previous steps to influence the current computation.
+
+---
+
+## Applications of RNNs
+
+1. **Natural Language Processing (NLP)**:
+   - Text generation, machine translation, sentiment analysis, and language modeling.
+2. **Speech Recognition**:
+   - Recognizing spoken words or commands in audio sequences.
+3. **Time-Series Prediction**:
+   - Stock market forecasting, weather prediction, or anomaly detection in sequential data.
+4. **Video Analysis**:
+   - Action recognition, video captioning, or event detection.
+5. **Music Generation**:
+   - Composing melodies based on patterns in musical sequences.
+
+---
+
+## Challenges of RNNs
+
+1. **Vanishing/Exploding Gradients**:
+   - During training, gradients can become too small (vanishing) or too large (exploding), making it difficult to capture long-term dependencies.
+   - This problem can be mitigated using advanced architectures like **LSTMs (Long Short-Term Memory)** and **GRUs (Gated Recurrent Units)**.
+
+2. **Sequential Computation**:
+   - RNNs process data step by step, making them computationally slower compared to other architectures like CNNs.
+
+---
+
+## Example Workflow
+
+Suppose we are training an RNN for text generation:
+
+1. **Input**:
+   - A sequence of words or characters, such as "I love machine learning".
+2. **Hidden State**:
+   - The RNN processes one word at a time, updating its hidden state at each step.
+3. **Output**:
+   - At each step, the network predicts the next word (e.g., predicting "learning" after "machine").
+4. **Training**:
+   - Use a loss function, such as Cross-Entropy Loss, to compare predictions with the actual sequence and optimize the weights using backpropagation through time (BPTT).
+
+---
+
+Would you like an example implementation of an RNN in Python? Let me know!
+
 
 
  **2.4 Transformer Networks:**
