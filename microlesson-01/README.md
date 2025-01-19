@@ -266,7 +266,8 @@ A **Convolutional Neural Network (CNN)** is a specialized type of neural network
 Would you like an example implementation of a CNN in Python using TensorFlow or PyTorch? Let me know!
 
 
- **2.3 Recurrent Neural Networks (RNN):**
+ # 2.3 Recurrent Neural Networks (RNN)
+ 
  ![RNN](https://git.generalassemb.ly/modular-courses/ai-solution-architect-deloitte-ENT/blob/main/_images/Screenshot%202025-01-19%20173152.png)
  [RNN](https://www.researchgate.net/publication/361681838_Sentiment_Analysis_of_Public_Social_Media_as_a_Tool_for_Health_-Related_Topics)
  
