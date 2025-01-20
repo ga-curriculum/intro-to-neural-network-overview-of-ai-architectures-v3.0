@@ -798,8 +798,6 @@ Choosing the right AI architecture depends on the **type of data modality** (e.g
 
 95. [Radford, A., et al. (2019). Language models are unsupervised multitask learners. *OpenAI Blog*.](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 
-## References
-
 96. [Gehring, J., et al. (2017). Convolutional sequence to sequence learning. *Proceedings of the 34th International Conference on Machine Learning (ICML)*.](https://arxiv.org/abs/1705.03122)
 
 97. [Radford, A., et al. (2018). Improving language understanding by generative pre-training. *OpenAI*.](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
@@ -839,8 +837,6 @@ Choosing the right AI architecture depends on the **type of data modality** (e.g
 114. [He, J., et al. (2021). Efficient attention: Attention with linear complexities. *arXiv preprint arXiv:2103.12367*.](https://arxiv.org/abs/2103.12367)
 
 115. [Liu, P., et al. (2019). RoFormer: Enhanced transformer with rotary position embedding. *arXiv preprint arXiv:2012.15723*.](https://arxiv.org/abs/2012.15723)
-
-## References
 
 116. [Mikolov, T., et al. (2013). Efficient estimation of word representations in vector space. *arXiv preprint arXiv:1301.3781*.](https://arxiv.org/abs/1301.3781)
 
