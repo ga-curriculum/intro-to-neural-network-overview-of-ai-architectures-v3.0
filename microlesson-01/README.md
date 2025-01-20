@@ -62,7 +62,7 @@ A **Feedforward Neural Network (FNN)** is one of the simplest types of artificia
 
 1. **Input Layer**:
    - This layer receives the input data. Each node corresponds to a feature in the input data.
-   - Example: For a dataset containing customer information such as `Age`, `Income`, and `Purchase History`, the input layer will have three nodes (one for each feature) [11].
+   - Example: For a dataset containing customer information such as Age, Income, and Purchase History, the input layer will have three nodes (one for each feature) [11].
 
 2. **Hidden Layers** (Optional):
    - These layers process the inputs using weights and biases and apply an activation function to introduce non-linearity.
@@ -71,8 +71,8 @@ A **Feedforward Neural Network (FNN)** is one of the simplest types of artificia
 3. **Output Layer**:
    - This layer produces the final output of the network.
    - The number of neurons in the output layer depends on the problem:
-     - Regression: Single neuron (e.g., predicting a continuous variable like `Annual Spending`).
-     - Classification: Number of classes (e.g., two neurons for `Will Purchase` vs. `Will Not Purchase`) [13].
+     - Regression: Single neuron (e.g., predicting a continuous variable like Annual Spending).
+     - Classification: Number of classes (e.g., two neurons for Will Purchase vs. Will Not Purchase) [13].
 
 ---
 
