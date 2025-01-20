@@ -84,8 +84,9 @@ For a simple FNN with one hidden layer:
    z = W * x + b  
    where:
    - W is the weight matrix connecting input to the hidden layer.
-   - x is the input vector (e.g., `Age`, `Income`, `Purchase History`).
+   - x is the input vector (e.g., Age, Income, Purchase History).
    - b is the bias vector [14].
+
 
 2. **Activation Function**:
    a = activation_function(z)  
