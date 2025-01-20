@@ -50,15 +50,15 @@ By the end of this lesson, participants will understand:
 - Determines the step size at which the weights are updated during training. [9]
 
 ---
+# 2. AI Architectures 
 
-
-## Feedforward Neural Network (FNN)
+## 2.1 Feedforward Neural Network (FNN)
 
 A **Feedforward Neural Network (FNN)** is one of the simplest types of artificial neural networks. Information in an FNN flows only in one direction: from input nodes, through hidden nodes (if any), to output nodes. It does not form cycles or loops, unlike recurrent neural networks (RNNs) [10].
 
 ---
 
-## Structure of a Feedforward Neural Network
+## 2.1.1 Structure of a Feedforward Neural Network
 
 1. **Input Layer**:
    - This layer receives the input data. Each node corresponds to a feature in the input data.
@@ -76,7 +76,7 @@ A **Feedforward Neural Network (FNN)** is one of the simplest types of artificia
 
 ---
 
-## Mathematics Behind FNN
+## 2.1.2 Mathematics Behind FNN
 
 For a simple FNN with one hidden layer:
 
@@ -109,7 +109,7 @@ For a simple FNN with one hidden layer:
 
 ---
 
-## Activation Functions
+## 2.1.3 Activation Functions
 
 Common activation functions include:
 
@@ -124,7 +124,7 @@ Common activation functions include:
 
 ---
 
-## Example: Customer Purchase Prediction
+## Example: 2.1.4 Customer Purchase Prediction
 
 1. **Input**: Customer data with the following features:
    - Age: 30 years.
@@ -139,7 +139,7 @@ Common activation functions include:
 
 ---
 
-## Advantages
+## 2.1.5 Advantages
 
 1. Simple and easy to implement [25].
 2. Suitable for basic tasks like regression and classification [26].
@@ -147,7 +147,7 @@ Common activation functions include:
 
 ---
 
-## Limitations
+## 2.1.6 Limitations
 
 1. Cannot handle sequential data effectively (use RNNs or transformers for this) [28].
 2. May require deep architectures (many layers) for complex problems [29].
@@ -161,13 +161,13 @@ Common activation functions include:
 
 [source](https://www.researchgate.net/publication/336805909_A_High-Accuracy_Model_Average_Ensemble_of_Convolutional_Neural_Networks_for_Classification_of_Cloud_Image_Patches_on_Small_Datasets)
 
-# Convolutional Neural Network (CNN)
+# 2.2 Convolutional Neural Network (CNN)
 
 A **Convolutional Neural Network (CNN)** is a specialized type of neural network primarily designed for processing structured grid-like data, such as images or time series. CNNs are highly effective for tasks involving spatial hierarchies and patterns, making them widely used in computer vision and image-related problems [31].
 
 ---
 
-## Key Features of CNNs
+## 2.2.1 Key Features of CNNs
 
 1. **Convolutional Layers**:
    - Perform feature extraction by applying filters (kernels) to the input data.
@@ -189,7 +189,7 @@ A **Convolutional Neural Network (CNN)** is a specialized type of neural network
 
 ---
 
-## How CNN Works
+## 2.2.2 How CNN Works
 
 1. **Input**:
    - CNNs take structured data as input, like an image represented by pixel values (e.g., a 3D matrix for RGB images) [36].
@@ -209,7 +209,7 @@ A **Convolutional Neural Network (CNN)** is a specialized type of neural network
 
 ---
 
-## Applications of CNNs
+## 2.2.3 Applications of CNNs
 
 1. **Image Classification**:
    - Recognizing objects in an image (e.g., detecting whether an image contains a dog or a cat) [41].
@@ -228,7 +228,7 @@ A **Convolutional Neural Network (CNN)** is a specialized type of neural network
 
 ---
 
-## Advantages
+## 2.2.4 Advantages
 
 1. **Efficient Feature Extraction**:
    - Automatically detects hierarchical patterns (edges, shapes, and objects) [46].
@@ -241,7 +241,7 @@ A **Convolutional Neural Network (CNN)** is a specialized type of neural network
 
 ---
 
-## Limitations
+## 2.2.5 Limitations
 
 1. **Computationally Expensive**:
    - Requires significant computational resources, especially for deep architectures [49].
@@ -266,7 +266,7 @@ A **Recurrent Neural Network (RNN)** is a type of neural network designed to han
 
 ---
 
-## Key Features of RNNs
+## 2.3.1 Key Features of RNNs
 
 1. **Sequential Data Handling**:
    - RNNs are designed to process sequential data, such as text, speech, or time-series data.
@@ -288,7 +288,7 @@ A **Recurrent Neural Network (RNN)** is a type of neural network designed to han
 
 ---
 
-## How RNNs Work
+## 2.3.2 How RNNs Work
 
 1. **Hidden State Update**:
    - The hidden state at the current time step is calculated using:
@@ -302,7 +302,7 @@ A **Recurrent Neural Network (RNN)** is a type of neural network designed to han
 3. **Recurrent Process**:
    - The RNN processes data one step at a time, using the context from previous steps to influence the current computation [59].
 
-## Applications of RNNs
+## 2.3.3 Applications of RNNs
 
 1. **Natural Language Processing (NLP)**:
    - Text generation, machine translation, sentiment analysis, and language modeling [61].
@@ -317,7 +317,7 @@ A **Recurrent Neural Network (RNN)** is a type of neural network designed to han
 
 ---
 
-## Challenges of RNNs
+## 2.3.4 Challenges of RNNs
 
 1. **Vanishing/Exploding Gradients**:
    - During training, gradients can become too small (vanishing) or too large (exploding), making it difficult to capture long-term dependencies.
@@ -328,7 +328,7 @@ A **Recurrent Neural Network (RNN)** is a type of neural network designed to han
 
 ---
 
-## Example Workflow
+## 2.3.5 Example Workflow
 
 Suppose we are training an RNN for text generation:
 
@@ -355,7 +355,7 @@ The **Transformer** architecture is a deep learning model introduced in the pape
 
 ---
 
-## Key Features of the Transformer
+## 2.4.1 Key Features of the Transformer
 
 1. **Self-Attention Mechanism**:
    - Captures relationships between words in a sequence, regardless of their distance from one another [73].
@@ -372,7 +372,7 @@ The **Transformer** architecture is a deep learning model introduced in the pape
 
 ---
 
-## Components of the Transformer
+## 2.4.2 Components of the Transformer
 
 ### 1. Input Embedding
 - Converts each input token into a continuous vector representation.
@@ -423,7 +423,7 @@ The **Transformer** architecture is a deep learning model introduced in the pape
 
 ---
 
-## Strengths of the Transformer
+## 2.4.3  Strengths of the Transformer
 
 1. **Parallelization**:
    - Processes sequences in parallel, making it faster than RNNs [93].
@@ -434,7 +434,7 @@ The **Transformer** architecture is a deep learning model introduced in the pape
 
 ---
 
-## Applications of the Transformer
+## 2.4.4 Applications of the Transformer
 
 1. **Machine Translation**:
    - Transforms sentences from one language to another.
@@ -455,7 +455,7 @@ The **Transformer** architecture is a deep learning model introduced in the pape
 
 ---
 
-## Limitations
+## 2.4.5 Limitations
 
 1. **Computational Expense**:
    - Requires significant memory and computational power, especially for long sequences [101].
@@ -466,13 +466,13 @@ The **Transformer** architecture is a deep learning model introduced in the pape
 
 ---
 
-# AI Architecture for Different Data Modalities
+# 3. AI Architecture for Different Data Modalities
 
 Choosing the right AI architecture depends on the **type of data modality** (e.g., text, image, audio, video, etc.), the **size of the dataset**, and the specific task. Selecting an appropriate model ensures efficient processing, high accuracy, and optimal performance for the task at hand [104].
 
 ---
 
-## Key Considerations When Picking the Right Model
+## 3.1 Key Considerations When Picking the Right Model
 
 1. **Data Modality**:
    - Different types of data (text, image, audio, etc.) require specialized architectures tailored to their structure and characteristics [105].
@@ -493,9 +493,9 @@ Choosing the right AI architecture depends on the **type of data modality** (e.g
 ---
 
 
-## Data Modalities and Suitable Architectures
+## 3.2 Data Modalities and Suitable Architectures
 
-### 1. **Text (Natural Language Processing)**
+### 3.2.1. **Text (Natural Language Processing)**
 - **Common Use Cases**:
   - Sentiment analysis, text classification, language translation, summarization, and question answering [116].
 
@@ -511,7 +511,7 @@ Choosing the right AI architecture depends on the **type of data modality** (e.g
 
 ---
 
-### 2. **Images (Computer Vision)**
+### 3.2.2. **Images (Computer Vision)**
 - **Common Use Cases**:
   - Image classification, object detection, image segmentation, and super-resolution [122].
 
@@ -527,7 +527,7 @@ Choosing the right AI architecture depends on the **type of data modality** (e.g
 
 ---
 
-### 3. **Audio**
+### 3.3.3. **Audio**
 - **Common Use Cases**:
   - Speech recognition, sound classification, and music generation [128].
 
@@ -542,7 +542,7 @@ Choosing the right AI architecture depends on the **type of data modality** (e.g
 
 ---
 
-### 4. **Video**
+### 3.4.4. **Video**
 - **Common Use Cases**:
   - Action recognition, video summarization, and object tracking [133].
 
@@ -557,7 +557,7 @@ Choosing the right AI architecture depends on the **type of data modality** (e.g
 
 ---
 
-### 5. **Tabular Data**
+### 5.4.5. **Tabular Data**
 - **Common Use Cases**:
   - Predictive modeling, classification, and regression tasks in domains like finance, healthcare, and retail [138].
 
@@ -572,7 +572,7 @@ Choosing the right AI architecture depends on the **type of data modality** (e.g
 
 ---
 
-### 6. **Multimodal Data**
+### 3.4 6. **Multimodal Data**
 - **Common Use Cases**:
   - Tasks combining multiple modalities, such as text and images (e.g., visual question answering, image captioning) [143].
 
@@ -587,7 +587,7 @@ Choosing the right AI architecture depends on the **type of data modality** (e.g
 
 ---
 
-## General Guidelines for Model Selection
+## 3.5 General Guidelines for Model Selection
 
 1. **Small Datasets**:
    - Use pre-trained models with fine-tuning to leverage transfer learning [148].
