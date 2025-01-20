@@ -1,6 +1,6 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[Intro to Neural Network + Overview of Architectures]</span>
+  <span class="headline">[Intro to Neural Network + Overview of AI  Architectures]</span>
 </h1>
 
 ## About
