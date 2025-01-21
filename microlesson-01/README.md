@@ -1,7 +1,5 @@
 # [Introduction to Neural Networks and Overview of AI Architecture]
 
-# Introduction to Neural Networks and Overview of AI Architecture
-
 **Learning Objective:**
 
 By the conclusion of this lesson, participants will be able to:
