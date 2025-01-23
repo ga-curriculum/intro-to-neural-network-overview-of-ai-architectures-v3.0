@@ -18,7 +18,7 @@
 
 ---
 
-## [II. Overview of Deep Learning Architectures](#ii-overview-of-deep-learning-architectures)(30 Mins)
+## [II. Overview of Deep Learning Architectures](#ii-overview-of-deep-learning-architectures)(35 Mins)
 - **[A. Feedforward Neural Networks (FNNs)](#a-feedforward-neural-networks-fnns) (5 Mins)**
   - [1. Key Features and Use Cases](#1-key-features-and-use-cases)
   - [2. Training and Limitations](#2-training-and-limitations)
