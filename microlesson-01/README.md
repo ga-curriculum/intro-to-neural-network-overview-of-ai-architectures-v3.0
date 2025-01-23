@@ -958,7 +958,6 @@ Image processing is a crucial domain in artificial intelligence, powering applic
 
 ---
 
-# III. AI Architecture for Different Data Modalities  
 ## C. Text Data Processing  
 
 ### 1. Introduction to Text Data  
