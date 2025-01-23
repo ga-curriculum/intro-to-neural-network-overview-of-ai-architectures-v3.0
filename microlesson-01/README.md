@@ -66,6 +66,13 @@
   - [2. Examples and Use Cases](#2-examples-and-use-cases)
 
 ---
+### Learning Objectives
+
+1. Understand the basics of neural networks, including their components, architectures, and training processes.  
+2. Differentiate between deep learning architectures like FNNs, CNNs, RNNs, and Transformers and their applications.  
+3. Identify suitable AI architectures for structured, image, and text data modalities.  
+4. Evaluate models based on data type, problem objectives, and modality requirements.  
+5. Understand the importance of data size, quality, and augmentation techniques in improving model performance.  
 
 # I. Introduction to Neural Networks  (10 Mins)
 ## A. Basics of Neural Networks  
