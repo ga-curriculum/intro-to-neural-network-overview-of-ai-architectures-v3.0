@@ -77,7 +77,7 @@ By the end of course, you will be able to>
 - **Analyze** the role of data size, quality, and augmentation techniques in improving model performance.  
  
 
-# I. Introduction to Neural Networks  (10 Mins)
+## I. Introduction to Neural Networks  (10 Mins)
 ## A. Basics of Neural Networks  
 
 ### 1. Understanding Artificial Neurons  
@@ -248,7 +248,7 @@ You are designing a neural network to predict traffic congestion based on inputs
 
 
 ---
-# II. Overview of Deep Learning Architectures (30 mins) 
+## II. Overview of Deep Learning Architectures (30 mins) 
 
 ## A. Feedforward Neural Networks (FNNs) (10 mins) 
 
@@ -616,48 +616,39 @@ Transformers are a groundbreaking architecture that has become the foundation of
 
 ### 5. Applications of Transformers  
 
-# Transformative Applications of Transformers
 
----
 
-## 🚀 **Natural Language Processing (NLP)**  
+🚀 **Natural Language Processing (NLP)**  
 **Transformers redefine language tasks** with groundbreaking models like GPT and BERT:  
 - 🌐 **Language Modeling**: Generate human-like text for chatbots, creative writing, and virtual assistants.  
 - 📝 **Text Classification**: Perform sentiment analysis, spam detection, and topic classification.  
 - 🌍 **Translation**: Power machine translation systems like Google Translate.  
 - 📖 **Summarization**: Summarize lengthy documents (extractive or abstractive approaches).  
 
----
 
-## 👁️ **Computer Vision**  
+👁️ **Computer Vision**  
 Transformers like Vision Transformers (ViTs) rival CNNs by processing images as sequences:  
 - 🖼️ **Image Classification**: Identify objects and scenes.  
 - ✂️ **Segmentation**: Segment images for tasks like medical imaging.  
 - 🚗 **Applications**: Autonomous vehicles, medical diagnostics, and security systems.  
 
----
 
-## 🎙️ **Speech Processing**  
+🎙️ **Speech Processing**  
 Enabling advanced speech applications:  
 - 🔊 **Speech-to-Text**: Convert spoken words into written text (e.g., Wav2Vec).  
 - 🗣️ **Text-to-Speech**: Produce lifelike audio from textual input.  
 
----
-
-## 🏥 **Healthcare**  
+🏥 **Healthcare**  
 Revolutionizing the medical field with AI-powered insights:  
 - 📋 **Patient Record Analysis**: Predict medical outcomes.  
 - 💊 **Drug Discovery**: Expedite pharmaceutical research.  
 - 🧬 **Genomics**: Analyze DNA sequences to uncover genetic disease patterns.  
 
----
 
-## 🎨 **Multi-Modal Tasks**  
+🎨 **Multi-Modal Tasks**  
 Breaking boundaries across data types:  
 - 🖌️ **Text-to-Image Generation**: Models like DALL·E create visuals from textual descriptions.  
 - 🔍 **Text and Image Understanding**: CLIP bridges the gap between textual and visual data.  
-
----
 
 ## 🔬 **Scientific Research**  
 Transformers tackle complex data challenges:  
@@ -723,7 +714,7 @@ Transformers are versatile, revolutionizing industries from creative arts to hea
 - 🤝 **Human-AI Collaboration**: Using Transformers in tools that assist creative professionals, such as generating art, music, or code.  
  
 
-# Activity: Deep Learning Architectures
+## Activity: Deep Learning Architectures
 *  
 
 ### **Quick Discussion**  
@@ -754,7 +745,7 @@ Choose **one application** from the list below and answer the prompts:
   
 
 
-# III. AI Architecture for Different Data Modalities  (20 Mins)
+## III. AI Architecture for Different Data Modalities  (20 Mins)
 ## A. Handling Structured Data  
 
 ### 1. Introduction to Structured Data  
@@ -1048,7 +1039,7 @@ Text data poses unique challenges due to its variability, context dependency, an
 
 ### 5. Applications of Text Data Processing  
 
-# 🌟 Exciting Applications of Text Processing and NLP
+## 🌟 Exciting Applications of Text Processing and NLP
 
 ## 🔠 **Natural Language Processing (NLP)**
 - 🗂️ **Text Classification**: Automatically categorize documents into groups, such as spam detection or topic classification.  
@@ -1139,7 +1130,7 @@ Text data poses unique challenges due to its variability, context dependency, an
 | **Multimodal**    | Integrating diverse data                          | Multimodal Transformers, Fusion, Cross-Attention| Multimodal chatbots, healthcare diagnostics, VR systems |
 
 
-# IV. Picking the Right Model for the Right Modality  (10 Mins)
+## IV. Picking the Right Model for the Right Modality  (10 Mins)
 
 ## A. Factors Influencing Model Selection  
 
