@@ -5,7 +5,7 @@
 </h1>
 
 ## [Table of Contents](#table-of-content)
-## [Learning Objectives](#learning objectives)
+## [Learning Objectives](#learning-objectives)
 ## [I. Introduction to Neural Networks](#i-introduction-to-neural-networks)(10 Mins)
 - **[A. Basics of Neural Networks](#a-basics-of-neural-networks)**
   - [1. Understanding Artificial Neurons](#1-understanding-artificial-neurons)
