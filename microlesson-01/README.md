@@ -19,14 +19,14 @@
 ---
 
 ## [II. Overview of Deep Learning Architectures](#ii-overview-of-deep-learning-architectures)(35 Mins)
-- **[A. Feedforward Neural Networks (FNNs)](#a-feedforward-neural-networks-fnns) (5 Mins)**
+- **[A. Feedforward Neural Networks (FNNs)](#a-feedforward-neural-networks-fnns) 
   - [1. Key Features and Use Cases](#1-key-features-and-use-cases)
   - [2. Training and Limitations](#2-training-and-limitations)
-- **[B. Convolutional Neural Networks (CNNs)](#b-convolutional-neural-networks-cnns)(10 Mins)**
+- **[B. Convolutional Neural Networks (CNNs)](#b-convolutional-neural-networks-cnns) 
   - [1. Understanding Convolutions and Pooling Layers](#1-understanding-convolutions-and-pooling-layers)
   - [2. Applications in Computer Vision](#2-applications-in-computer-vision)
   - [3. Popular CNN Architectures (e.g., ResNet, VGG)](#3-popular-cnn-architectures-eg-resnet-vgg)
-- **[C. Recurrent Neural Networks (RNNs)](#c-recurrent-neural-networks-rnns)(10 Mins)**
+- **[C. Recurrent Neural Networks (RNNs)](#c-recurrent-neural-networks-rnns)
   - [1. Temporal Data and Sequence Learning](#1-temporal-data-and-sequence-learning)
   - [2. Long Short-Term Memory (LSTM) and GRU](#2-long-short-term-memory-lstm-and-gru)
   - [3. Use Cases in Text and Speech](#3-use-cases-in-text-and-speech)
