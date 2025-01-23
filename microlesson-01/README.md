@@ -5,7 +5,7 @@
 </h1>
 
 ## [Table of Contents](#table-of-content)
-## [Learning Objectives](#learning-objectives)
+
 ## [I. Introduction to Neural Networks](#i-introduction-to-neural-networks)(10 Mins)
 - **[A. Basics of Neural Networks](#a-basics-of-neural-networks)**
   - [1. Understanding Artificial Neurons](#1-understanding-artificial-neurons)
@@ -68,11 +68,14 @@
 ---
 ### Learning Objectives
 
-1. Understand the basics of neural networks, including their components, architectures, and training processes.  
-2. Differentiate between deep learning architectures like FNNs, CNNs, RNNs, and Transformers and their applications.  
-3. Identify suitable AI architectures for structured, image, and text data modalities.  
-4. Evaluate models based on data type, problem objectives, and modality requirements.  
-5. Understand the importance of data size, quality, and augmentation techniques in improving model performance.  
+By the end of course, you will be able to>
+
+- **Explain** the basics of neural networks, including their components, architectures, and training processes. 
+- **Compare** deep learning architectures like FNNs, CNNs, RNNs, and Transformers and their applications. 
+- **Select** appropriate AI architectures for structured, image, and text data modalities based on problem requirements. 
+- **Evaluate** models considering data type, problem objectives, and modality-specific needs.
+- **Analyze** the role of data size, quality, and augmentation techniques in improving model performance.  
+ 
 
 # I. Introduction to Neural Networks  (10 Mins)
 ## A. Basics of Neural Networks  
@@ -83,10 +86,10 @@ Artificial neurons, often referred to as perceptrons, form the fundamental units
 Artificial neurons process information by taking inputs, assigning weights to these inputs (to represent their importance), summing them up, and passing the result through an activation function. This output is then sent to the next layer in the network.  
 
 #### Key Features of Artificial Neurons:
-- **Inputs**: Represent data or features from the problem domain, such as pixels in an image or words in a sentence.  
-- **Weights**: Determine how important a particular input is to the neuron.  
-- **Bias**: Allows flexibility by shifting the output threshold of the neuron.  
-- **Activation Function**: Decides whether the neuron’s output should be activated or not, depending on its value.  
+- 📥 **Inputs**: Represent data or features from the problem domain, such as pixels in an image or words in a sentence.  
+- ⚖️ **Weights**: Determine how important a particular input is to the neuron.  
+- 🎚️ **Bias**: Allows flexibility by shifting the output threshold of the neuron.  
+- ⚡ **Activation Function**: Decides whether the neuron’s output should be activated or not, depending on its value.    
 
 Artificial neurons allow neural networks to build hierarchical structures, where data is processed step-by-step to extract meaningful patterns. This modular design is what makes neural networks versatile for a wide range of tasks.
 
@@ -187,20 +190,23 @@ Weights and biases are essential components of a neural network, as they control
 ### 3. Loss Functions and Optimization  
 
 #### Loss Functions:
-- **Definition**: A loss function measures the difference between the predicted output and the actual output. It quantifies how well the network is performing.  
-- **Types of Loss Functions**:  
-  - **Mean Squared Error (MSE)**: Commonly used for regression tasks. Measures the average squared difference between predicted and actual values.  
-  - **Cross-Entropy Loss**: Used for classification tasks. Measures the dissimilarity between predicted probabilities and actual class labels.  
-  - **Hinge Loss**: Used for tasks like Support Vector Machines (SVM). Helps maximize the margin between classes.  
-- **Purpose**: The goal of training is to minimize the loss function, improving the network’s performance.
+- 🎯 **Definition**: A loss function measures the difference between the predicted output and the actual output. It quantifies how well the network is performing.  
+- 🛠️ **Types of Loss Functions**:  
+  - 📉 **Mean Squared Error (MSE)**: Commonly used for regression tasks. Measures the average squared difference between predicted and actual values.  
+  - 🧮 **Cross-Entropy Loss**: Used for classification tasks. Measures the dissimilarity between predicted probabilities and actual class labels.  
+  - 🪜 **Hinge Loss**: Used for tasks like Support Vector Machines (SVM). Helps maximize the margin between classes.  
+- ✅ **Purpose**: The goal of training is to minimize the loss function, improving the network’s performance.
 
 #### Optimization:
-- **Definition**: Optimization refers to the process of adjusting weights and biases to minimize the loss function.  
-- **Common Optimization Algorithms**:  
-  - **Gradient Descent**: Adjusts parameters in the direction of the steepest decrease in the loss function.  
-  - **Stochastic Gradient Descent (SGD)**: A variant of gradient descent that updates weights for a single data point at a time, making it faster for large datasets.  
-  - **Adam Optimizer**: Combines the benefits of SGD and momentum, making it one of the most popular optimizers.  
-- **Learning Rate**: A critical hyperparameter in optimization that controls how much the weights are adjusted in each iteration. Too high a learning rate can cause instability, while too low can result in slow learning.
+- 🔍 **Definition**: Optimization refers to the process of adjusting weights and biases to minimize the loss function.  
+- ⚙️ **Common Optimization Algorithms**:  
+  - 🔽 **Gradient Descent**: Adjusts parameters in the direction of the steepest decrease in the loss function.  
+  - ⚡ **Stochastic Gradient Descent (SGD)**: A variant of gradient descent that updates weights for a single data point at a time, making it faster for large datasets.  
+  - 🚀 **Adam Optimizer**: Combines the benefits of SGD and momentum, making it one of the most popular optimizers.  
+- 📏 **Learning Rate**: A critical hyperparameter in optimization that controls how much the weights are adjusted in each iteration.  
+  - 🚧 Too high a learning rate can cause instability.  
+  - 🐢 Too low a learning rate can result in slow learning.
+
 
 ---
 # II. Overview of Deep Learning Architectures (30 mins) 
