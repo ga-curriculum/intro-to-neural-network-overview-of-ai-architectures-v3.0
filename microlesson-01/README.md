@@ -598,19 +598,19 @@ Transformers are a groundbreaking architecture that has become the foundation of
 ### 3. Strengths of Transformers  
 
 #### a) **Parallel Processing**  
-- Unlike RNNs, Transformers process all elements of a sequence simultaneously, greatly improving training speed and scalability.  
+- :zap: Unlike RNNs, Transformers process all elements of a sequence simultaneously, greatly improving training speed and scalability.  
 
 #### b) **Long-Range Context Understanding**  
-- The self-attention mechanism enables Transformers to capture dependencies between elements regardless of their distance in the sequence, which is critical for tasks like document understanding or summarization.  
+- :satellite: The self-attention mechanism enables Transformers to capture dependencies between elements regardless of their distance in the sequence, which is critical for tasks like document understanding or summarization.  
 
 #### c) **Flexibility Across Data Modalities**  
-- Originally designed for NLP, Transformers have been adapted for images, audio, video, and multi-modal tasks.  
+- :universal_access: Originally designed for NLP, Transformers have been adapted for images, audio, video, and multi-modal tasks.  
 
 #### d) **Scalability**  
-- Transformers excel in large-scale training scenarios, such as pretraining on massive datasets and fine-tuning for specific tasks.  
+- :chart_with_upwards_trend: Transformers excel in large-scale training scenarios, such as pretraining on massive datasets and fine-tuning for specific tasks.  
 
 #### e) **Transfer Learning**  
-- Pretrained Transformers like BERT, GPT, and T5 enable transfer learning, where a model trained on a large corpus is fine-tuned for a specific task with minimal data.
+- :recycle: Pretrained Transformers like BERT, GPT, and T5 enable transfer learning, where a model trained on a large corpus is fine-tuned for a specific task with minimal data.
 
 ---
 
@@ -712,6 +712,32 @@ Transformers are a groundbreaking architecture that has become the foundation of
 #### d) **Human-AI Collaboration**  
 - Using Transformers in tools that assist creative professionals, such as generating art, music, or code.  
 
+# Activity Deep Learning Architectures
+
+**Objective:** Understand key deep learning architectures through discussion.
+
+**Instructions:** 
+
+This exercise focuses on your understanding of FNNs, CNNs, RNNs, and Transformers. 
+
+**Part 1: Discussion**
+
+1. **FNN vs. CNN:** How do they differ in handling spatial information? 
+2. **RNNs:** Explain vanishing/exploding gradients and how LSTMs/GRUs address them.
+3. **Transformers:** Explain self-attention and its advantages over RNNs. Discuss limitations.
+
+**Part 2: Scenario**
+
+Choose an application (e.g., fraud detection, translation, medical image analysis). 
+* Which architecture would you choose? Why?
+* What challenges might you face?
+
+**Part 3: Critical Thinking**
+
+1. **Black Box Problem:** Discuss the implications of the "black box" nature of deep learning models.
+2. **Data Bias:** How does data quality/quantity impact model performance and introduce bias?
+
+**Note:** This exercise focuses on critical thinking and discussion. There are no single "correct" answers.
 ---
 
 # III. AI Architecture for Different Data Modalities  (20 Mins)
@@ -721,9 +747,9 @@ Transformers are a groundbreaking architecture that has become the foundation of
 Structured data refers to information that is organized in a clear, predefined format, typically in rows and columns, such as spreadsheets or relational databases. Examples include financial records, customer data, or sensor readings. This type of data is easier to analyze due to its well-defined schema and is often used in tasks like regression, classification, and forecasting.
 
 #### Examples of Structured Data:  
-- Tabular data: Sales records, transaction logs, and demographic information.  
-- Sensor data: IoT device readings, temperature logs, and machine performance metrics.  
-- Relational databases: Data stored in SQL or other database management systems.  
+* :clipboard: Tabular data: Sales records, transaction logs, and demographic information.  
+* :thermometer: Sensor data: IoT device readings, temperature logs, and machine performance metrics.  
+* :database: Relational databases: Data stored in SQL or other database management systems. 
 
 ---
 
@@ -746,35 +772,12 @@ Structured data refers to information that is organized in a clear, predefined f
 
 ### 3. AI Architectures for Structured Data  
 
-#### a) **Gradient Boosting Machines (GBMs)**  
-- Popular models like XGBoost, LightGBM, and CatBoost excel at handling structured data.  
-- Strengths:  
-  - Built-in handling of missing values.  
-  - High accuracy for both regression and classification tasks.  
-  - Works well with small-to-moderate datasets.  
-
-#### b) **Deep Neural Networks (DNNs)**  
-- Neural networks can also process structured data, especially in large datasets with complex relationships.  
-- Strengths:  
-  - Automatic feature extraction.  
-  - Can learn hierarchical patterns in data.  
-- Challenges:  
-  - Require more data and tuning compared to traditional models like GBMs.  
-
-#### c) **Linear Models**  
-- Linear regression and logistic regression are simple yet powerful models for structured data.  
-- Strengths:  
-  - Easy to interpret.  
-  - Fast to train and evaluate.  
-- Challenges:  
-  - Limited in capturing non-linear relationships.  
-
-#### d) **Decision Trees and Random Forests**  
-- Useful for understanding data patterns and interactions between features.  
-- Strengths:  
-  - Handle missing data well.  
-  - Provide feature importance metrics.  
-
+| Model | Strengths | Challenges |
+|---|---|---|
+| Gradient Boosting Machines (GBMs) | - Built-in handling of missing values. <br> - High accuracy for both regression and classification tasks. <br> - Works well with small-to-moderate datasets. |  | 
+| Deep Neural Networks (DNNs) | - Automatic feature extraction. <br> - Can learn hierarchical patterns in data. | - Require more data and tuning compared to traditional models like GBMs. |
+| Linear Models | - Easy to interpret. <br> - Fast to train and evaluate. | - Limited in capturing non-linear relationships. |
+| Decision Trees and Random Forests | - Handle missing data well. <br> - Provide feature importance metrics. |  |
 ---
 
 ### 4. Techniques for Optimizing Structured Data Models  
@@ -797,26 +800,13 @@ Structured data refers to information that is organized in a clear, predefined f
 
 ### 5. Applications of Structured Data in AI  
 
-#### a) **Finance and Banking**  
-- Fraud detection using transaction logs.  
-- Credit scoring based on customer demographic and financial data.  
-- Portfolio optimization using historical market data.  
-
-#### b) **Healthcare**  
-- Patient diagnosis predictions using electronic health records (EHR).  
-- Hospital resource allocation based on patient admission data.  
-
-#### c) **Retail and E-commerce**  
-- Customer segmentation based on purchase history and demographics.  
-- Inventory management and demand forecasting using sales data.  
-
-#### d) **Manufacturing**  
-- Predictive maintenance using sensor data from industrial machinery.  
-- Quality control based on structured production data.  
-
-#### e) **Transportation**  
-- Route optimization and demand forecasting for logistics companies.  
-- Traffic prediction using sensor and historical data.  
+| Industry | Icon | Use Cases |
+|---|---|---|
+| **Finance and Banking** | :moneybag: | - Fraud detection using transaction logs. <br> - Credit scoring based on customer demographic and financial data. <br> - Portfolio optimization using historical market data. |
+| **Healthcare** | :stethoscope: | - Patient diagnosis predictions using electronic health records (EHR). <br> - Hospital resource allocation based on patient admission data. |
+| **Retail and E-commerce** | :shopping_cart: | - Customer segmentation based on purchase history and demographics. <br> - Inventory management and demand forecasting using sales data. |
+| **Manufacturing** | :factory: | - Predictive maintenance using sensor data from industrial machinery. <br> - Quality control based on structured production data. |
+| **Transportation** | :truck: | - Route optimization and demand forecasting for logistics companies. <br> - Traffic prediction using sensor and historical data. |
 
 ---
 
@@ -912,29 +902,15 @@ Image processing is a crucial domain in artificial intelligence, powering applic
 
 ### 5. Applications of Image Data Processing  
 
-#### a) **Medical Imaging**  
-- Detecting diseases like cancer in X-rays, MRIs, and CT scans.  
-- Example: Automated tumor detection.  
-
-#### b) **Autonomous Vehicles**  
-- Analyzing images from cameras to detect lanes, obstacles, and pedestrians for safe navigation.  
-
-#### c) **Facial Recognition**  
-- Identifying individuals based on facial features for security, authentication, and social media tagging.  
-
-#### d) **Retail and E-commerce**  
-- Visual search tools allow users to find products by uploading images.  
-- Example: Suggesting similar clothing or furniture items.  
-
-#### e) **Satellite Imaging**  
-- Monitoring environmental changes, detecting deforestation, or identifying urban growth from satellite images.  
-
-#### f) **Agriculture**  
-- Using drone imagery for crop health monitoring and pest detection.  
-
-#### g) **Augmented and Virtual Reality (AR/VR)**  
-- Processing image data to create immersive virtual environments or overlay virtual objects on real-world scenes.  
-
+| Industry | Icon | Use Cases |
+|---|---|---|
+| **Medical Imaging** | :stethoscope: | - Detecting diseases like cancer in X-rays, MRIs, and CT scans. <br> - Example: Automated tumor detection. |
+| **Autonomous Vehicles** | :car: | - Analyzing images from cameras to detect lanes, obstacles, and pedestrians for safe navigation. |
+| **Facial Recognition** | :face: | - Identifying individuals based on facial features for security, authentication, and social media tagging. |
+| **Retail and E-commerce** | :shopping_cart: | - Visual search tools allow users to find products by uploading images. <br> - Example: Suggesting similar clothing or furniture items. |
+| **Satellite Imaging** | :satellite: | - Monitoring environmental changes, detecting deforestation, or identifying urban growth from satellite images. |
+| **Agriculture** | :tractor: | - Using drone imagery for crop health monitoring and pest detection. |
+| **Augmented and Virtual Reality (AR/VR)** | :vr: | - Processing image data to create immersive virtual environments or overlay virtual objects on real-world scenes. |
 ---
 
 ### 6. Tools and Frameworks for Image Data Processing  
@@ -1335,3 +1311,24 @@ Data augmentation and synthetic data generation are critical for overcoming data
 | **Audio**         | Time-varying, sequential                          | RNNs, 1D CNNs, Spectrogram CNNs, Wav2Vec        | Speech recognition, audio event detection, music gen.   |
 | **Video**         | Spatial and temporal info, large data size        | 3D CNNs, RNN-CNN hybrids, Video Transformers    | Video classification, autonomous vehicles, video editing|
 | **Multimodal**    | Integrating diverse data                          | Multimodal Transformers, Fusion, Cross-Attention| Multimodal chatbots, healthcare diagnostics, VR systems |
+
+## Discussion 
+
+1. **Core Concepts:** Explain the concept of backpropagation and its significance in training neural networks. How does this relate to your work at Deloitte (e.g., model development, data analysis, algorithm tuning)?
+
+2. **Architectural Choices:** Discuss the trade-offs between using a simple FNN versus a more complex architecture like a CNN or RNN for a specific business problem you encounter at Deloitte. 
+
+3. **Data Considerations:** How does the quality and quantity of data impact the performance of AI models in your current role? Provide specific examples from your work.
+
+4. **Ethical Implications:** Discuss the ethical considerations related to the use of AI in your area of work at Deloitte. For example, bias in data, privacy concerns, or the impact of AI on jobs. 
+
+## Conclusion
+
+This discussion highlighted the foundational concepts of neural networks and explored their relevance within the context of our work at Deloitte. Key takeaways include:
+
+* A strong understanding of core concepts like backpropagation is crucial for effective model development and troubleshooting.
+* Selecting the appropriate architecture depends on the specific data characteristics and the problem at hand.
+* Data quality and quantity significantly impact the performance and reliability of AI models.
+* Ethical considerations must be a central part of any AI project, from data collection to model deployment.
+
+
