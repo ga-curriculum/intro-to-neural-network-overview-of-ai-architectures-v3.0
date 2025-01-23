@@ -1,6 +1,6 @@
 
 <h1>
-  <span class="headline">["Intro to Neural Networks + Overview of AI Architecture"]</span>
+  <span class="headline"> Intro to Neural Networks + Overview of AI Architecture: </span>
   <span class="subhead">Supervised, Unsupervised, and Reinforcement Machine Learning </span>
 </h1>
 
