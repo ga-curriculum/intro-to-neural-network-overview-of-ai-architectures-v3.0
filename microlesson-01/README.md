@@ -862,20 +862,7 @@ Image processing is a crucial domain in artificial intelligence, powering applic
   - Capture global context more effectively than CNNs.  
   - Scalable to large datasets.  
 - **Applications**: Image classification, object detection, and segmentation.  
-
-#### c) **Autoencoders**  
-- Used for image compression, denoising, and anomaly detection.  
-- Consist of an encoder to compress the image and a decoder to reconstruct it.  
-
-#### d) **Generative Adversarial Networks (GANs)**  
-- GANs generate realistic images by pitting two networks (generator and discriminator) against each other.  
-- **Applications**:  
-  - Image synthesis (e.g., creating photorealistic faces).  
-  - Image-to-image translation (e.g., converting sketches to realistic images).  
-
-#### e) **U-Net Architecture**  
-- Designed for image segmentation tasks, particularly in medical imaging.  
-- Combines downsampling (to extract features) and upsampling (to reconstruct spatial information).  
+ 
 
 ---
 
@@ -939,10 +926,7 @@ Image processing is a crucial domain in artificial intelligence, powering applic
 #### c) **Keras Applications**  
 - Provides pre-trained models like ResNet, Inception, and MobileNet for easy transfer learning.  
 
-#### d) **Detectron2**  
-- Facebook’s open-source library for object detection and segmentation.  
-
-#### e) **Scikit-image**  
+#### d) **Scikit-image**  
 - Python library for image processing with tools for feature extraction, filtering, and segmentation.  
 
 ---
@@ -1319,28 +1303,6 @@ Data augmentation and synthetic data generation are critical for overcoming data
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
----
 
 ###  Table for Data Modalities
 
