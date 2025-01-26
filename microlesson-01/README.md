@@ -232,9 +232,11 @@ You are designing a neural network to predict traffic congestion based on inputs
 - A simple diagram of the network (inputs, hidden layers, output).
 - A brief justification of chosen architecture and activation functions.
 
-
+-**ShopSmart Example**
+ShopSmart uses artificial neurons to predict customer purchase behavior based on inputs like product price and purchase history. Activation functions, like ReLU, decide product recommendations, while sigmoid predicts subscription likelihood. Shallow networks analyze seasonal sales trends, whereas deep networks handle complex tasks like customer sentiment analysis or personalized product recommendations for enhancing the shopping experience.
 
 ---
+
 ## II. Overview of Deep Learning Architectures (30 mins) 
 
 ## A. Feedforward Neural Networks (FNNs) (10 mins) 
@@ -457,8 +459,6 @@ In sentiment analysis, the network processes words in a sentence sequentially, m
 | **Gated Recurrent Unit (GRU)**| A simpler alternative to LSTMs, with fewer parameters. Combines the forget and input gates into a single update gate.       | Faster to train and computationally efficient while handling long-term dependencies.                                      | Useful for similar tasks as LSTMs but less resource-intensive.                                                  |
 | **Bidirectional RNNs**        | Processes sequences in both forward and backward directions, providing additional context.                                 | Enhances context understanding by processing past and future information.                                                | Improves performance for tasks like speech and text processing, such as machine translation.                     |
 | **Sequence-to-Sequence Models (Seq2Seq)** | A specialized RNN architecture for tasks with input and output sequences of different lengths.                         | - **Encoder**: Encodes input into a fixed-length vector. <br> - **Decoder**: Generates output from the context vector.    | Ideal for tasks like language translation where input and output sequences have different lengths.               |
-
-  
 
 ---
 
@@ -717,7 +717,7 @@ In small groups or as a class, discuss the following questions:
 
 ---
 
-### **Scenario Analysis)**  
+### **(Scenario Analysis)**  
 
 Choose **one application** from the list below and answer the prompts:  
 
@@ -729,8 +729,15 @@ Choose **one application** from the list below and answer the prompts:
 - Which architecture (FNN, CNN, RNN, Transformer) would you choose for this task? Why?  
 - What is one challenge you might face, and how would you address it?  
 
-  
+-**ShopSmart Example**
+ShopSmart applies deep learning architectures effectively:
 
+FNNs: Predicts customer purchasing trends using sales and product data.
+CNNs: Automatically classifies product images and detects damaged goods for inventory optimization.
+RNNs: Uses LSTMs to forecast sales trends and power chatbots for personalized customer interactions.
+Transformers: Employs BERT for sentiment analysis of customer reviews and GPT for generating personalized marketing messages and interactive product descriptions.
+
+---
 
 ## III. AI Architecture for Different Data Modalities  (20 Mins)
 ## A. Handling Structured Data  
@@ -1095,6 +1102,14 @@ Text data poses unique challenges due to its variability, context dependency, an
 | **Video**         | Spatial and temporal info, large data size        | 3D CNNs, RNN-CNN hybrids, Video Transformers    | Video classification, autonomous vehicles, video editing|
 | **Multimodal**    | Integrating diverse data                          | Multimodal Transformers, Fusion, Cross-Attention| Multimodal chatbots, healthcare diagnostics, VR systems |
 
+- **ShopSmart Example**
+- ShopSmart uses AI architectures for finance-related tasks across multiple data modalities:
+
+Structured Data: Implements FNNs to predict credit risk scores for store credit applicants, using income, spending patterns, and repayment history.
+Image Data: Applies CNNs to process expense receipts and invoices, extracting financial details for fraud detection and expense categorization.
+Text Data: Uses Transformer models (like BERT) to analyze customer financial feedback, identifying refund complaints, and GPT to generate customized financial advice or payment plans.-
+
+---
 
 ## IV. Picking the Right Model for the Right Modality  (10 Mins)
 
@@ -1194,6 +1209,13 @@ Choosing the right AI model for a specific task or data modality is crucial for 
 - **Sequential Data (e.g., Stock Prices)**  
 - **Best Models**: LSTMs, GRUs, or Transformers for long-term dependencies.  
 - **Use Case**: Predicting stock prices or weather patterns.  
+
+
+- **ShopSmart Example**
+
+At ShopSmart, model selection is guided by data type and business objectives:
+
+Problem Statement and Objectives: To reduce product returns, CNNs detect damaged items before shipping. To enhance customer satisfaction, Transformers analyze complaints and suggest resolutions. For boosting in-store engagement, video models identify high-traffic areas for strategic product placement.
 
 ---
 
@@ -1296,6 +1318,20 @@ Data augmentation and synthetic data generation are critical for overcoming data
 | **Audio**         | Time-varying, sequential                          | RNNs, 1D CNNs, Spectrogram CNNs, Wav2Vec        | Speech recognition, audio event detection, music gen.   |
 | **Video**         | Spatial and temporal info, large data size        | 3D CNNs, RNN-CNN hybrids, Video Transformers    | Video classification, autonomous vehicles, video editing|
 | **Multimodal**    | Integrating diverse data                          | Multimodal Transformers, Fusion, Cross-Attention| Multimodal chatbots, healthcare diagnostics, VR systems |
+
+---
+- **Example from ShopSmart**
+ShopSmart emphasizes the importance of data size and quality for enhancing its AI-driven solutions:
+
+Role of Data in Model Performance:
+
+Challenges with Small Datasets: When launching a new store, limited sales data can affect demand forecasting. ShopSmart uses pre-trained models to mitigate this challenge.
+Leveraging Large-Scale Datasets: Analyzing nationwide customer transaction data enables accurate predictions for personalized marketing campaigns and optimizing pricing strategies.
+Data Augmentation and Synthetic Data:
+
+Techniques for Enhancing Data: ShopSmart uses data augmentation to generate variations of product images (e.g., rotated, cropped) for better defect detection and employs synthetic data to simulate customer purchase patterns for new products.
+Examples and Use Cases: Synthetic datasets help predict the popularity of a new product launch, and augmented data improves performance in image-based product classification.
+
 
 ## Discussion 
 
