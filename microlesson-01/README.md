@@ -27,7 +27,7 @@
   - [1. Temporal Data and Sequence Learning](#1-temporal-data-and-sequence-learning)
   - [2. Long Short-Term Memory (LSTM) and GRU](#2-long-short-term-memory-lstm-and-gru)
   - [3. Use Cases in Text and Speech](#3-use-cases-in-text-and-speech)
-- **[D. Transformers](#d-transformers)(10 Mins)**
+- **[D. Transformers](#d-transformers)**
   - [1. Attention Mechanism and Self-Attention](#1-attention-mechanism-and-self-attention)
   - [2. Popular Architectures (e.g., BERT, GPT)](#2-popular-architectures-eg-bert-gpt)
   - [3. Applications Across Modalities](#3-applications-across-modalities)
