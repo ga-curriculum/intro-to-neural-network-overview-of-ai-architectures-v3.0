@@ -4,7 +4,7 @@
   <span class="subhead">Supervised, Unsupervised, and Reinforcement Machine Learning </span>
 </h1>
 
-## [Table of Contents]
+## Table of Contents
 
 ## [I. Introduction to Neural Networks](#i-introduction-to-neural-networks)
 - **[A. Basics of Neural Networks](#a-basics-of-neural-networks)**
