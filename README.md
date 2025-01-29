@@ -11,10 +11,12 @@ tktk Write a short but descriptive summary of the content in this module.
 
 | Lesson | Est. Delivery Time | Skills |
 | ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
+| [Setup](./setup/README.md)  | -- | Set up the development environment. |
 | [Intro to Neural Network + Overview of AI Architecture](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [ Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
+| [ Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover |
+| [ Microlesson Name](microlesson-03/README.md) | -- | tktk Skills to cover |
+| [ Microlesson Name](./microlesson-04/README.md) | -- | tktk Skills to cover |
+| [ Microlesson Name](./microlesson-05/README.md) | -- | tktk Skills to cover |
 | **Total content**                                   | -- |                                     |
 
 ## References
