@@ -7,14 +7,13 @@
 
 tktk Write a short but descriptive summary of the content in this module.
 
-## Content
-
 | Lesson | Est. Delivery Time | Skills |
 | ------ |:------------------:| ------ |
 | [Setup](./setup/README.md)  | -- | Set up the development environment. |
-| [Intro to Neural Network + Overview of AI Architecture](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [ Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover |
-| [ Microlesson Name](microlesson-03/README.md) | -- | tktk Skills to cover |
-| [ Microlesson Name](./microlesson-04/README.md) | -- | tktk Skills to cover |
-| [ Microlesson Name](./microlesson-05/README.md) | -- | tktk Skills to cover |
+| [Intro to Neural Networks](./microlesson-01/README.md) | -- | tktk Skills to cover                |
+| [ Overview of Deep Learning Architectures](./microlesson-02/README.md) | -- | tktk Skills to cover |
+| [ AI Architecture for Different Data Modalities](./microlesson-03/README.md) | -- | tktk Skills to cover |
+| [ Picking the Right Model for the Right Modality](./microlesson-04/README.md) | -- | tktk Skills to cover |
+| [ Importance of Data Size and Quality](./microlesson-05/README.md) | -- | tktk Skills to cover |
 | **Total content**                                   | -- |                                     |
+                           | -- |                                     |
