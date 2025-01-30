@@ -1,70 +1,9 @@
 
 <h1>
-  <span class="headline"> Intro to Neural Networks + Overview of AI Architecture: </span>
-  <span class="subhead">Supervised, Unsupervised, and Reinforcement Machine Learning </span>
+  <span class="headline"> Introduction to Neural Networks  </span>
+  <span class="subhead"></span>
 </h1>
 
-## Table of Contents
-
-## [I. Introduction to Neural Networks](#i-introduction-to-neural-networks)
-- **[A. Basics of Neural Networks](#a-basics-of-neural-networks)**
-  - [1. Understanding Artificial Neurons](#1-understanding-artificial-neurons)
-  - [2. Activation Functions and Their Importance](#2-activation-functions-and-their-importance)
-  - [3. Network Architectures: Shallow vs. Deep](#3-network-architectures-shallow-vs-deep)
-- **[B. Core Concepts in Neural Networks](#b-core-concepts-in-neural-networks)**
-  - [1. Weights, Biases, and Parameters](#1-weights-biases-and-parameters)
-  - [2. Forward Propagation and Backpropagation](#2-forward-propagation-and-backpropagation)
-  - [3. Loss Functions and Optimization](#3-loss-functions-and-optimization)
-## [II. Overview of Deep Learning Architectures](#ii-overview-of-deep-learning-architectures)
-- **[A. Feedforward Neural Networks (FNNs)](#a-feedforward-neural-networks-fnns) 
-  - [1. Key Features and Use Cases](#1-key-features-and-use-cases)
-  - [2. Training and Limitations](#2-training-and-limitations)
-- **[B. Convolutional Neural Networks (CNNs)](#b-convolutional-neural-networks-cnns) 
-  - [1. Understanding Convolutions and Pooling Layers](#1-understanding-convolutions-and-pooling-layers)
-  - [2. Applications in Computer Vision](#2-applications-in-computer-vision)
-  - [3. Popular CNN Architectures (e.g., ResNet, VGG)](#3-popular-cnn-architectures-eg-resnet-vgg)
-- **[C. Recurrent Neural Networks (RNNs)](#c-recurrent-neural-networks-rnns)
-  - [1. Temporal Data and Sequence Learning](#1-temporal-data-and-sequence-learning)
-  - [2. Long Short-Term Memory (LSTM) and GRU](#2-long-short-term-memory-lstm-and-gru)
-  - [3. Use Cases in Text and Speech](#3-use-cases-in-text-and-speech)
-- **[D. Transformers](#d-transformers)**
-  - [1. Attention Mechanism and Self-Attention](#1-attention-mechanism-and-self-attention)
-  - [2. Popular Architectures (e.g., BERT, GPT)](#2-popular-architectures-eg-bert-gpt)
-  - [3. Applications Across Modalities](#3-applications-across-modalities)
-## [III. AI Architecture for Different Data Modalities](#iii-ai-architecture-for-different-data-modalities)
-- **[A. Handling Structured Data](#a-handling-structured-data)**
-  - [1. Overview of Tabular Data](#1-overview-of-tabular-data)
-  - [2. Selecting Models for Numerical and Categorical Data](#2-selecting-models-for-numerical-and-categorical-data)
-- **[B. Image Data Processing](#b-image-data-processing)**
-  - [1. Preprocessing and Augmentation](#1-preprocessing-and-augmentation)
-  - [2. Architectures for Image Data](#2-architectures-for-image-data)
-- **[C. Text Data Processing](#c-text-data-processing)**
-  - [1. Tokenization and Embedding Methods](#1-tokenization-and-embedding-methods)
-  - [2. Architectures for Text (e.g., Transformers)](#2-architectures-for-text-eg-transformers)
-## [IV. Picking the Right Model for the Right Modality](#iv-picking-the-right-model-for-the-right-modality)
-- **[A. Factors Influencing Model Selection](#a-factors-influencing-model-selection)**
-  - [1. Data Type and Modality](#1-data-type-and-modality)
-  - [2. Problem Statement and Objectives](#2-problem-statement-and-objectives)
-## [V. Importance of Data Size and Quality](#vi-importance-of-data-size-and-quality)
-- **[A. Role of Data in Model Performance](#a-role-of-data-in-model-performance)**
-  - [1. Challenges with Small Datasets](#1-challenges-with-small-datasets)
-  - [2. Leveraging Large-Scale Datasets](#2-leveraging-large-scale-datasets)
-- **[B. Data Augmentation and Synthetic Data](#b-data-augmentation-and-synthetic-data)**
-  - [1. Techniques for Enhancing Data](#1-techniques-for-enhancing-data)
-  - [2. Examples and Use Cases](#2-examples-and-use-cases)
-
-### Learning Objectives
-
-By the end of course, you will be able to>
-
-- **Explain** the basics of neural networks, including their components, architectures, and training processes. 
-- **Compare** deep learning architectures like FNNs, CNNs, RNNs, and Transformers and their applications. 
-- **Select** appropriate AI architectures for structured, image, and text data modalities based on problem requirements. 
-- **Evaluate** models considering data type, problem objectives, and modality-specific needs.
-- **Analyze** the role of data size, quality, and augmentation techniques in improving model performance.  
- 
-
-## I. Introduction to Neural Networks  
 ## A. Basics of Neural Networks  
 
 ### 1. Understanding Artificial Neurons  
