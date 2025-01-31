@@ -1,7 +1,7 @@
 
 <h1>
-  <span class="headline"> Introduction to Neural Networks  </span>
-  <span class="subhead"></span>
+  <span class="headline">Intro to Neural Networks + Overview of AI Architectures </span>
+  <span class="subhead">Introduction to Neural Networks</span>
 </h1>
 
 ## A. Basics of Neural Networks  
