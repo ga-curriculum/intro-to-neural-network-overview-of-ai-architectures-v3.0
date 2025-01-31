@@ -1,6 +1,6 @@
 <h1>
-  <span class="headline">Importance of Data Size and Quality</span>
-  <span class="subhead"></span>
+  <span class="headline">Intro to Neural Networks + Overview of AI Architectures </span>
+  <span class="subhead">Importance of Data Size and Quality</span>
 </h1>
 
 ## A. Role of Data in Model Performance  
