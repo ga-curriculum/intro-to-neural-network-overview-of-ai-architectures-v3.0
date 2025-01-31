@@ -1,7 +1,8 @@
 <h1>
-  <span class="headline">AI Architecture for Different Data Modalities</span>
-  <span class="subhead"></span>
+  <span class="headline">Intro to Neural Networks + Overview of AI Architectures </span>
+  <span class="subhead">AI Architecture for Different Data Modalities</span>
 </h1>
+
 
 ## A. Handling Structured Data  
 
