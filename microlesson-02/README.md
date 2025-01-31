@@ -1,6 +1,6 @@
 <h1>
-  <span class="headline">Overview of Deep Learning Architectures</span>
-  <span class="subhead"></span>
+  <span class="headline">Intro to Neural Networks + Overview of AI Architectures </span>
+  <span class="subhead">Overview of Deep Learning Architectures</span>
 </h1>
 
 ## A. Feedforward Neural Networks (FNNs) (10 mins) 
