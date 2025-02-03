@@ -163,6 +163,25 @@ You are designing a neural network to predict traffic congestion based on inputs
    - Which activation function would work best and why?
    - How would the network handle challenges like noisy data or overfitting?
 
+```mermaid
+graph TD;
+    A[Vehicle Counts] -->|Weighted Connection| H1[Hidden Neuron 1]
+    A[Vehicle Counts] -->|Weighted Connection| H2[Hidden Neuron 2]
+    A[Vehicle Counts] -->|Weighted Connection| H3[Hidden Neuron 3]
+    
+    B[Time of Day] -->|Weighted Connection| H1
+    B[Time of Day] -->|Weighted Connection| H2
+    B[Time of Day] -->|Weighted Connection| H3
+
+    C[Weather Conditions] -->|Weighted Connection| H1
+    C[Weather Conditions] -->|Weighted Connection| H2
+    C[Weather Conditions] -->|Weighted Connection| H3
+
+    H1 -->|ReLU or Sigmoid| O[Traffic Light Duration]
+    H2 -->|ReLU or Sigmoid| O
+    H3 -->|ReLU or Sigmoid| O
+```
+
 #### Deliverables:
 - A simple diagram of the network (inputs, hidden layers, output).
 - A brief justification of chosen architecture and activation functions.
