@@ -18,5 +18,4 @@ This is an in-depth exploration of neural networks and AI architectures, coverin
 | [ Picking the Right Model for the Right Modality](./microlesson-04/README.md) | 10 min | AI model selection, optimization steps, and applications across structured, image, text, and sequential data. |
 | [ Importance of Data Size and Quality](./microlesson-05/README.md) | 15 min | The impact of data size and quality on AI performance, optimization techniques, and ethical considerations. |
 | **Total content**                                   | 90 min |                                     |
-                         | -- |                                     |
-
+          
