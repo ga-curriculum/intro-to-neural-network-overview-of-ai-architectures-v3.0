@@ -138,8 +138,6 @@ Weights and biases are essential components of a neural network, as they control
 #### Scenario:
 You are designing a neural network to predict traffic congestion based on inputs like vehicle counts, time of day, and weather conditions, and to output optimal traffic light durations.
 
----
-
 #### Steps:
 
 1. **Define Inputs and Outputs**:
@@ -164,8 +162,6 @@ You are designing a neural network to predict traffic congestion based on inputs
 5. **Reflection**:
    - Which activation function would work best and why?
    - How would the network handle challenges like noisy data or overfitting?
-
----
 
 #### Deliverables:
 - A simple diagram of the network (inputs, hidden layers, output).
