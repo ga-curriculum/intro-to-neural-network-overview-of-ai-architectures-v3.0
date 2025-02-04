@@ -13,11 +13,11 @@ This is an in-depth exploration of neural networks and AI architectures, coverin
 | ------ |:------------------:| ------ |
 | [Setup](./setup/README.md)  | 2 min | Set up the development environment. |
 | [Intro to Neural Networks](./intro-to-neural-networks/README.md) | 20 min | Neural network fundamentals and core training concepts.              |
-| [Overview of Deep Learning Architectures](./microlesson-02/README.md) | 40 min | Deep learning architectures (FNNs, CNNs, RNNs, Transformers), their functions, applications, and advanced techniques for AI model optimization. |
-| [AI Architecture for Different Data Modalities](./microlesson-03/README.md) | 15 min | AI architectures for structured, image, and text data; their challenges, optimization techniques, and real-world applications. |
-| [Picking the Right Model for the Right Modality](./microlesson-04/README.md) | 10 min | AI model selection, optimization steps, and applications across structured, image, text, and sequential data. |
-| [Importance of Data Size and Quality](./microlesson-05/README.md) | 15 min | The impact of data size and quality on AI performance, optimization techniques, and ethical considerations. |
-| **Total content**                                   | 1 hr 40 min |                                     |
+| [Overview of Deep Learning Architectures](./overview-of-deep-learning-architectures/README.md) | 40 min | Deep learning architectures (FNNs, CNNs, RNNs, Transformers), their functions, applications, and advanced techniques for AI model optimization. |
+| [AI Architecture for Different Data Modalities](./ai-architecture-for-different-data-modalities/README.md) | 15 min | AI architectures for structured, image, and text data; their challenges, optimization techniques, and real-world applications. |
+| [Picking the Right Model for the Right Modality](./picking-the-right-model-for-the-right-modality/README.md) | 10 min | AI model selection, optimization steps, and applications across structured, image, text, and sequential data. |
+| [Importance of Data Size and Quality](./importance-of-data-size-and-quality/README.md) | 15 min | The impact of data size and quality on AI performance, optimization techniques, and ethical considerations. |
+| **Total content**                                   | 1 hr 42 min |                                     |
           
 ## References
 

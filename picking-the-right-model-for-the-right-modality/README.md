@@ -4,6 +4,9 @@
   <span class="subhead">Picking the Right Model for the Right Modality</span>
 </h1>
 
+**Learning objective:** By the end of this lesson, you'll be able to choose the right ML model to build based on dataset types, contextual requirements of the problem in hand and implementation complexity.
+
+
 ## An Introduction to Model Selection   
 Choosing the right AI model for a specific task or data modality is crucial for achieving high performance, efficiency, and scalability. The decision depends on several factors, including the type of data, the complexity of the problem, and the computational resources available. This section outlines the key considerations that guide model selection and how to align them with the specific requirements of the application.
 

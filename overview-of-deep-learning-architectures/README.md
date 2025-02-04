@@ -3,6 +3,20 @@
   <span class="subhead">Overview of Deep Learning Architectures</span>
 </h1>
 
+**Learning objective:** By the end of this lesson, you'll be able to:
+- Describe deep learning architectural models, namely:
+  - Feedforward Neural Networks (FNN)
+  - Convolutional Neural Networks (CNN)
+  - Recurrent Neural Networks (RNN)
+  - Bidirectional Encoder Representations from Transformers (BERT)
+  - Generative Pretrained Transformers (GPT)
+  - Text-to-Text Transfer Transformers (T5)
+  - Vision Transformers (ViT)
+  - DALL·E
+  - AlphaFold
+- Choose the right architectural model for a given machine learning problem.
+
+
 ## Feedforward Neural Networks  
 Feedforward Neural Networks (FNNs) are the simplest type of artificial neural network, where data flows in one direction, from the input layer through the hidden layers to the output layer. There are no loops or cycles in the network, making it a straightforward and foundational architecture.  
 
@@ -137,7 +151,7 @@ CNNs process data hierarchically through multiple layers, with each layer learni
 - **Edge AI**: Optimizing CNNs for deployment on edge devices like smartphones and IoT sensors.
 
 
-## Recurrent Neural Networks (RNNs)
+## Recurrent Neural Networks
 Recurrent Neural Networks (RNNs) are a class of neural networks designed to process sequential or time-series data. Unlike Feedforward Neural Networks (FNNs), RNNs have connections that allow information to flow not only from input to output but also backward within the network. This capability makes RNNs ideal for tasks where the order or sequence of data is essential.
 
 ### Key Characteristics 

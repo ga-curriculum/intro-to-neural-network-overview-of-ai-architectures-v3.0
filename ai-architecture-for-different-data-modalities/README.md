@@ -3,6 +3,10 @@
   <span class="subhead">AI Architecture for Different Data Modalities</span>
 </h1>
 
+**Learning objective:** By the end of this lesson, you'll be able to explain how to optimize ML architectural models for processing:
+- Structured Data
+- Image Data
+- Multimodal Data
 
 ## Structured Data Handling
 Structured data refers to information that is organized in a clear, predefined format, typically in rows and columns, such as spreadsheets or relational databases. Examples include financial records, customer data, or sensor readings. This type of data is easier to analyze due to its well-defined schema and is often used in tasks like regression, classification, and forecasting.

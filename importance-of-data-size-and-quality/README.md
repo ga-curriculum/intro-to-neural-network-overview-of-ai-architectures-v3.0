@@ -3,6 +3,11 @@
   <span class="subhead">Importance of Data Size and Quality</span>
 </h1>
 
+**Learning objective:** By the end of this lesson, you'll be able to
+- List the challenges with various data sizes.
+- Describe possible solutions to address those challenges.
+
+
 ## Using Small Datasets  
 Small datasets can significantly impact the performance of machine learning and deep learning models, leading to underwhelming results due to insufficient patterns or relationships captured during training.  
 
@@ -94,12 +99,11 @@ ShopSmart emphasizes the importance of data size and quality for enhancing its A
 
 ### Role of Data in Model Performance:
 
-Challenges with Small Datasets: When launching a new store, limited sales data can affect demand forecasting. ShopSmart uses pre-trained models to mitigate this challenge.
-Leveraging Large-Scale Datasets: Analyzing nationwide customer transaction data enables accurate predictions for personalized marketing campaigns and optimizing pricing strategies.
-Data Augmentation and Synthetic Data:
+- **Challenges with Small Datasets**: When launching a new store, limited sales data can affect demand forecasting. ShopSmart uses pre-trained models to mitigate this challenge.
+- **Leveraging Large-Scale Datasets**: Analyzing nationwide customer transaction data enables accurate predictions for personalized marketing campaigns and optimizing pricing strategies.
 
-Techniques for Enhancing Data: ShopSmart uses data augmentation to generate variations of product images (e.g., rotated, cropped) for better defect detection and employs synthetic data to simulate customer purchase patterns for new products.
-Examples and Use Cases: Synthetic datasets help predict the popularity of a new product launch, and augmented data improves performance in image-based product classification.
+- **Techniques for Enhancing Data**: ShopSmart uses data augmentation to generate variations of product images (e.g., rotated, cropped) for better defect detection and employs synthetic data to simulate customer purchase patterns for new products.
+- **Examples and Use Cases**: Synthetic datasets help predict the popularity of a new product launch, and augmented data improves performance in image-based product classification.
 
 
 ## Discussion Activity 
