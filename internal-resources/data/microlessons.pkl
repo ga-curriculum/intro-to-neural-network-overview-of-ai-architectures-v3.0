@@ -17,15 +17,29 @@ introToNeuralNetworks = new Template.Microlesson {
 }
 
 overviewOfDeepLearningArchitectures = new Template.Microlesson {
-  friendlyName = Overview of Deep Learning Architectures"
+  friendlyName = "Overview of Deep Learning Architectures"
   dirName = "overview-of-deep-learning-architectures"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+aiArchitectureForDifferentDataModalities = new Template.Microlesson {
+  friendlyName = "AI Architecture for Different Data Modalities"
+  dirName = "ai-architecture-for-different-data-modalities"
+  type = "Content"
+  videoUrl = ""
+}
+
+pickingTheRightModelForTheRightModality = new Template.Microlesson {
+  friendlyName = "Picking the Right Model for the Right Modality"
+  dirName = "picking-the-right-model-for-the-right-modality2"
+  type = "Content"
+  videoUrl = ""
+}
+
+importanceOfDataSizeAndQuality = new Template.Microlesson {
+  friendlyName = "Importance of Data Size and Quality"
+  dirName = "importance-of-data-size-and-quality"
   type = "Content"
   videoUrl = ""
 }
