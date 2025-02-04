@@ -4,15 +4,14 @@
   <span class="subhead">Introduction to Neural Networks</span>
 </h1>
 
-## Lesson Objectives
+**Learning objective:** By the end of this lesson, you'll be able to:
 - **Understand** the structure and function of an artificial neuron.
 - **Explain** the role of activation functions in introducing non-linearity.
 - **Differentiate** between shallow and deep neural network architectures.
 - **Engage** in a simple design activity applying these concepts.
 
-### A. Core Concepts
 
-#### 1. Understanding Artificial Neurons
+## Understanding Artificial Neurons
 - **What is an Artificial Neuron?**  
   - **Analogy:** Think of it like a recipe. Ingredients (inputs) are measured (weighted), adjusted (bias), and then processed (activation function) to produce a dish (output).
 - **Key Components:**
@@ -21,20 +20,16 @@
   - **Bias:** Adjusts the output threshold.
   - **Activation Function:** Decides if the neuron “fires.”
 
----
-
-#### 2. Activation Functions
+## Activation Functions
 - **Why They Matter:**  
   - Introduce non-linearity, allowing neural networks to model complex patterns.
 - **Popular Activation Functions:**
   - **ReLU:** Outputs the input if positive; otherwise, zero. Ideal for hidden layers.
   - **Sigmoid:** Squashes values between 0 and 1, useful for probability outputs.
   
-  Imagine an activation function as a gate: it decides if the signal should pass through or not.
+Imagine an activation function as a gate: it decides if the signal should pass through or not.
 
----
-
-#### 3. Shallow vs. Deep Neural Networks
+## Shallow vs. Deep Neural Networks
 - **Shallow Networks:**  
   - **Definition:** A network with just one hidden layer.
   - **Example Use-Cases:** Predicting house prices, simple binary classification (e.g., spam detection).
@@ -43,9 +38,7 @@
   - **Advantages:** Capable of learning hierarchical features (e.g., edges to objects in images).
   - **Challenges:** Overfitting, computational cost, and training complexities.
 
----
-
-#### 4. Forward Propagation and Backpropagation
+## Forward Propagation and Backpropagation
 - **Forward Propagation:**  
   - **Process:** Data flows from input through each layer to produce an output.
   - **Visual:** A simple flowchart showing the forward pass.
@@ -55,11 +48,7 @@
 - **Think about it 🤔**  
   - Why do you think backpropagation is essential for learning?
 
----
-
-### B. Interactive Activity: Neural Networks in Action
-
-#### Designing a Neural Network for Traffic Congestion Prediction
+## **Interactive Activity**: Designing a Neural Network for Traffic Congestion Prediction
 
 1. **Define the Task:**
    - **Inputs:** Vehicle counts, time of day, weather conditions.

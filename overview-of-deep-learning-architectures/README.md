@@ -3,19 +3,15 @@
   <span class="subhead">Overview of Deep Learning Architectures</span>
 </h1>
 
-## A. Feedforward Neural Networks (FNNs) (10 mins) 
-
-### 1. Introduction to Feedforward Neural Networks  
+## Feedforward Neural Networks  
 Feedforward Neural Networks (FNNs) are the simplest type of artificial neural network, where data flows in one direction, from the input layer through the hidden layers to the output layer. There are no loops or cycles in the network, making it a straightforward and foundational architecture.  
 
-#### Key Characteristics:  
+### Key Characteristics:  
 - **Unidirectional Data Flow**: Information passes from input to output without feedback loops.  
 - **Layer-Based Structure**: Composed of an input layer, one or more hidden layers, and an output layer.  
 - **Deterministic Output**: Each input produces a single, predictable output after processing through the network.  
 
----
-
-### 2. Working of Feedforward Neural Networks  
+### Working of FNNs  
 The operation of FNNs is based on the following steps:  
 1. **Input Layer**: Takes raw input data and passes it to the next layer.  
 2. **Hidden Layers**:  
@@ -26,48 +22,32 @@ The operation of FNNs is based on the following steps:
 #### Example of Use:  
 - For a binary classification problem (e.g., spam detection), the network might take email content as input, process it through hidden layers, and output a probability score indicating whether it is spam or not.  
 
----
-
-### 3. Strengths of Feedforward Neural Networks  
+### Strengths of FNNs  
 - ✨ **Simplicity**: Easy to implement and understand due to their straightforward structure.  
 - 🔄 **Versatility**: Can be applied to various tasks like regression, classification, and simple prediction problems.  
 - 🏗️ **Foundation for Other Architectures**: Serves as the basis for more complex architectures like Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs).  
 
-
----
-
-### 4. Limitations of Feedforward Neural Networks  
+### Limitations of FNNs  
 - ⏳ **Limited Learning for Sequential Data**: FNNs cannot model sequential or time-dependent data effectively, such as text or speech.  
 - 📈 **Scalability Issues**: As the number of layers increases, training becomes computationally expensive, and the risk of overfitting increases.  
 - 🚫 **No Feature Sharing**: Every neuron is independent and does not share parameters, making it less efficient for tasks like image processing.  
 
----
-
-### 5. Applications of Feedforward Neural Networks  
+### Applications of FNNs
 Despite their simplicity, FNNs are widely used in tasks that do not involve sequential or spatial dependencies:  
 - 🏡 **Regression Tasks**: Predicting house prices or stock values based on numerical data.  
 - 🗂️ **Classification Tasks**: Basic binary or multi-class classification problems, such as customer segmentation or disease diagnosis.  
 - 📊 **Simple Function Approximation**: Modeling mathematical functions where input-output relationships are straightforward.  
 
-   
-
----
-
-## B. Convolutional Neural Networks (CNNs)  (10 min )
-
-### 1. Introduction to Convolutional Neural Networks  
+## Convolutional Neural Networks
 Convolutional Neural Networks (CNNs) are one of the most significant advancements in deep learning, tailored for analyzing grid-like data structures, such as images, videos, and even 2D signals. CNNs have revolutionized computer vision by automating feature extraction, eliminating the need for manual engineering. They work by learning hierarchical patterns, from low-level edges to high-level objects.
 
-#### Historical Context:  
+### Historical Context:  
 - CNNs were inspired by the organization of the visual cortex in animals, where specific neurons respond to particular visual stimuli.
 - Early CNN designs, such as **LeNet-5** by Yann LeCun, were used for handwritten digit recognition.
 - CNNs gained widespread popularity with the success of **AlexNet** in the 2012 ImageNet competition.
 
----
-
-### 2. Key Components of CNNs  
-
-- **Convolution Layer**  
+### Key Components of CNNs
+#### Convolution Layer 
 - The backbone of CNNs, the convolution layer applies filters (or kernels) to the input data to extract meaningful features.  
 - Features learned by this layer can include:
   - **Low-level features**: Edges, lines, and corners.
@@ -75,22 +55,20 @@ Convolutional Neural Networks (CNNs) are one of the most significant advancement
   - **High-level features**: Objects and scenes.  
 - Multiple filters are used to capture different types of patterns simultaneously.
 
-- **Pooling Layer**  
+#### Pooling Layer 
 - Pooling layers reduce the spatial dimensions of feature maps, ensuring computational efficiency and reducing the risk of overfitting.  
 - Helps focus on dominant features while ignoring minor variations, such as noise.  
 - **Global Average Pooling (GAP)** is also used in modern architectures to summarize an entire feature map into a single value per feature.
 
-- **Dropout Layer**  
+#### Dropout Layer
 - Regularization technique that randomly sets a fraction of neurons to zero during training, preventing overfitting and improving generalization.
 
-- **Batch Normalization Layer**  
+#### Batch Normalization Layer  
 - Normalizes the inputs to each layer, improving stability and speeding up training.  
 - It ensures that the input distribution to a layer remains consistent, even as the network trains.
 
----
-
-### 3. How CNNs Learn Hierarchical Features  
-- CNNs process data hierarchically through multiple layers, with each layer learning more complex representations:  
+### How CNNs Learn Hierarchical Features  
+CNNs process data hierarchically through multiple layers, with each layer learning more complex representations:  
   - **First Layer**: Detects simple features like edges or gradients.  
   - **Middle Layers**: Combines edges into textures and patterns.  
   - **Final Layers**: Identifies objects or high-level patterns.  
@@ -99,54 +77,33 @@ Convolutional Neural Networks (CNNs) are one of the most significant advancement
 - Enables transfer learning, where pre-trained CNNs on large datasets (e.g., ImageNet) can be fine-tuned for other tasks with smaller datasets.  
 - Makes CNNs robust to variations such as rotation, scaling, and translation.
 
----
-
-### 4. Strengths of CNNs  
-
-| **Feature**                | **Description**                                                                                                                   |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+### Strengths of CNNs  
+| **Feature**| **Description**|
+|------------|----------------|
 | **Spatial Feature Extraction** | CNNs excel at identifying spatial dependencies in data, such as the relationship between nearby pixels in an image.                |
 | **Reduced Parameter Count**    | By using local receptive fields and shared weights, CNNs significantly reduce the number of learnable parameters, enhancing efficiency. |
 | **Translation Invariance**     | CNNs can recognize objects in images regardless of their position, scale, or orientation, making them robust in real-world scenarios. |
 | **Wide Applicability**         | CNNs are used in computer vision and have been adapted for medical imaging, video analysis, and speech processing.                   |
 
+### Advanced Techniques in CNNs  
+- **Transfer Learning**: Pre-trained models like ResNet, VGG, or Inception are fine-tuned on specific tasks with smaller datasets, saving time and computational resources.
 
----
+- **Data Augmentation**: Techniques like flipping, rotation, cropping, and color changes artificially expand datasets, making CNNs more robust and preventing overfitting.  
 
-### 5. Advanced Techniques in CNNs  
+- **Fine-Tuning and Freezing Layers**: Fine-tuning allows retraining only the later layers of a pre-trained CNN, while earlier layers are frozen to preserve pre-learned features.
 
-- **Transfer Learning**  
-- Pre-trained models like ResNet, VGG, or Inception are fine-tuned on specific tasks with smaller datasets, saving time and computational resources.
+- **Depthwise Separable Convolutions**: Used in architectures like MobileNet, this technique reduces computation by separating spatial and channel-wise filtering.
 
-- **Data Augmentation**  
-- Techniques like flipping, rotation, cropping, and color changes artificially expand datasets, making CNNs more robust and preventing overfitting.  
+### Challenges in Using CNNs  
+- **High Data Requirements**: CNNs require large labeled datasets to achieve optimal performance. Training with insufficient data can lead to overfitting.
 
-- **Fine-Tuning and Freezing Layers**  
-- Fine-tuning allows retraining only the later layers of a pre-trained CNN, while earlier layers are frozen to preserve pre-learned features.
+- **Computational Demand**: Training deep CNNs is resource-intensive, often requiring GPUs or TPUs for practical implementation.  
 
-- **Depthwise Separable Convolutions**  
-- Used in architectures like MobileNet, this technique reduces computation by separating spatial and channel-wise filtering.
+- **Sensitivity to Hyperparameters**: CNNs require careful tuning of hyperparameters like filter size, stride, learning rate, and number of layers for optimal performance.
 
----
+- **Bias in Datasets**: CNNs are highly sensitive to biases in the training data, which can lead to poor generalization to unseen or diverse datasets.
 
-### 6. Challenges in Using CNNs  
-
-- **High Data Requirements**  
-- CNNs require large labeled datasets to achieve optimal performance. Training with insufficient data can lead to overfitting.
-
-- **Computational Demand**  
-- Training deep CNNs is resource-intensive, often requiring GPUs or TPUs for practical implementation.  
-
-- **Sensitivity to Hyperparameters**  
-- CNNs require careful tuning of hyperparameters like filter size, stride, learning rate, and number of layers for optimal performance.
-
-- **Bias in Datasets**  
-- CNNs are highly sensitive to biases in the training data, which can lead to poor generalization to unseen or diverse datasets.
-
----
-
-### 7. Applications of CNNs  
-
+### Applications of CNNs  
 - 🖼️ **Image Classification**: Recognizing objects or scenes in images (e.g., cats vs. dogs).  
   - Applications: Autonomous vehicles, photo tagging on social media.
 
@@ -161,86 +118,63 @@ Convolutional Neural Networks (CNNs) are one of the most significant advancement
 - 📚 **Natural Language Processing**: While RNNs and Transformers dominate NLP, CNNs are used for tasks like text classification and sentence modeling.
 
 
----
+### Popular CNN Architectures  
+- **LeNet-5**: Designed for handwritten digit recognition, it was one of the first successful CNNs.  
 
-### 8. Popular CNN Architectures  
+- **AlexNet**: Pioneered deep learning in image recognition, introducing ReLU activation and dropout for better performance.  
 
-- **LeNet-5**  
-- Designed for handwritten digit recognition, it was one of the first successful CNNs.  
+- **VGG**: Simplified network design with smaller filters, but deeper layers for better performance.  
 
-- **AlexNet**  
-- Pioneered deep learning in image recognition, introducing ReLU activation and dropout for better performance.  
+- **ResNet (Residual Networks)**: Addressed the vanishing gradient problem by introducing skip connections, enabling networks with hundreds of layers.
 
-- **VGG**  
-- Simplified network design with smaller filters, but deeper layers for better performance.  
-
-- **ResNet (Residual Networks)**  
-- Addressed the vanishing gradient problem by introducing skip connections, enabling networks with hundreds of layers.
-
-- **Inception Networks**  
-- Innovated by introducing multi-scale convolutions within a single layer, improving accuracy without increasing computational cost.
-
----
+- **Inception Networks**: Innovated by introducing multi-scale convolutions within a single layer, improving accuracy without increasing computational cost.
 
 ### 9. Future of CNNs  
-- **Hybrid Architectures**: Combining CNNs with RNNs or Transformers to process both spatial and temporal data.  
-- **Self-Supervised Learning**: Training CNNs without the need for labeled data, reducing reliance on costly annotation processes.  
+- **Hybrid Architectures**: Combining CNNs with RNNs or Transformers to process both spatial and temporal data.
+    
+- **Self-Supervised Learning**: Training CNNs without the need for labeled data, reducing reliance on costly annotation processes. 
+  
 - **Edge AI**: Optimizing CNNs for deployment on edge devices like smartphones and IoT sensors.
 
----
 
-## C. Recurrent Neural Networks (RNNs)  (10 Mins)
-
-### 1. Introduction to Recurrent Neural Networks  
+## Recurrent Neural Networks (RNNs)
 Recurrent Neural Networks (RNNs) are a class of neural networks designed to process sequential or time-series data. Unlike Feedforward Neural Networks (FNNs), RNNs have connections that allow information to flow not only from input to output but also backward within the network. This capability makes RNNs ideal for tasks where the order or sequence of data is essential.
 
-#### Key Characteristics:  
+### Key Characteristics 
 - **Sequential Processing**: Processes data one step at a time, maintaining a memory of previous inputs.  
 - **Hidden State**: Stores information about previous computations, enabling the network to learn dependencies in the data.  
 - **Shared Weights**: Uses the same weights across time steps, which reduces the number of parameters and ensures consistency in learning.  
 
----
 
-### 2. How RNNs Work  
+### How RNNs Work  
 RNNs process sequences by iteratively passing inputs through a recurrent loop, where the hidden state from the previous time step influences the current output. This enables the network to capture temporal dependencies, such as trends, patterns, or contextual information.
 
-#### Key Steps in RNNs:  
+### Key Steps in RNNs
 1. **Input**: A sequence of data points (e.g., words in a sentence, frames in a video).  
 2. **Hidden State Update**: Combines the current input with the previous hidden state to update the current state.  
 3. **Output**: Produces the result based on the current hidden state, which can be a single value or a sequence.  
 
-Example Use Case:  
+**Example Use Case**:  
 In sentiment analysis, the network processes words in a sentence sequentially, maintaining context from previous words to determine the overall sentiment.
 
----
-
-### 3. Types of RNN Architectures  
-
-| **Type**                     | **Definition**                                                                                                              | **Key Features / Strengths**                                                                                             | **Applications / Limitations**                                                                                  |
-|-------------------------------|----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+### Types of RNN Architectures  
+| **Type**| **Definition**| **Key Features / Strengths**| **Applications / Limitations**|
+|---------|---------------|-----------------------------|-------------------------------|
 | **Vanilla RNN**               | The simplest RNN architecture where each neuron takes the current input and the hidden state from the previous time step.  | -                                                                                                                        | Struggles with long-term dependencies due to vanishing or exploding gradient problems.                           |
 | **Long Short-Term Memory (LSTM)** | A specialized RNN designed to handle long-term dependencies by introducing memory cells and gates.                         | - **Forget Gate**: Discards unnecessary information. <br> - **Input Gate**: Adds new information. <br> - **Output Gate**: Controls info flow to the next layer. | Effective for tasks requiring long-range context, such as language translation and speech recognition.          |
 | **Gated Recurrent Unit (GRU)**| A simpler alternative to LSTMs, with fewer parameters. Combines the forget and input gates into a single update gate.       | Faster to train and computationally efficient while handling long-term dependencies.                                      | Useful for similar tasks as LSTMs but less resource-intensive.                                                  |
 | **Bidirectional RNNs**        | Processes sequences in both forward and backward directions, providing additional context.                                 | Enhances context understanding by processing past and future information.                                                | Improves performance for tasks like speech and text processing, such as machine translation.                     |
 | **Sequence-to-Sequence Models (Seq2Seq)** | A specialized RNN architecture for tasks with input and output sequences of different lengths.                         | - **Encoder**: Encodes input into a fixed-length vector. <br> - **Decoder**: Generates output from the context vector.    | Ideal for tasks like language translation where input and output sequences have different lengths.               |
 
----
 
-### 4. Strengths of RNNs  
+### Strengths of RNNs  
+- **Ability to Handle Sequential Data**: RNNs are specifically designed to process data where the order matters, such as time-series data, text, and speech.  
 
-- **Ability to Handle Sequential Data**  
-RNNs are specifically designed to process data where the order matters, such as time-series data, text, and speech.  
+- **Contextual Understanding**: The hidden state allows RNNs to retain information about previous inputs, enabling context-aware predictions.  
 
-- **Contextual Understanding**  
-The hidden state allows RNNs to retain information about previous inputs, enabling context-aware predictions.  
+- **Flexibility**: RNNs can process variable-length input sequences, making them versatile for diverse tasks like video analysis or handwriting recognition.
 
-- **Flexibility**  
-RNNs can process variable-length input sequences, making them versatile for diverse tasks like video analysis or handwriting recognition.  
-
----
-
-### 5. Limitations of RNNs  
-
+### Limitations of RNNs  
 - ⚠️ **Vanishing and Exploding Gradients**: During training, gradients can shrink or grow excessively, making it difficult for the network to learn long-term dependencies.  
 
 - 🐢 **Slow Training**: Due to sequential processing, RNNs are slower to train compared to parallelizable architectures like CNNs.  
@@ -248,35 +182,25 @@ RNNs can process variable-length input sequences, making them versatile for dive
 - 🔄 **Difficulty in Capturing Long-Term Dependencies**: Vanilla RNNs struggle to remember information over long sequences. LSTMs and GRUs address this but at a higher computational cost.  
 
 - 📉 **Limited Scalability**: Training RNNs on large datasets or very long sequences can be computationally intensive.  
-  
 
----
 
-### 6. Applications of RNNs  
+### Applications of RNNs  
 
-- **Natural Language Processing (NLP)**  
-- Sentiment analysis, machine translation, text generation, and named entity recognition (NER).  
-- Example: Google Translate uses Seq2Seq models based on RNNs.
+- **Natural Language Processing (NLP)**: Sentiment analysis, machine translation, text generation, and named entity recognition (NER).  
+  - Example: Google Translate uses Seq2Seq models based on RNNs.
 
-- **Speech Recognition**  
-- Converts spoken words into text by processing audio signals as sequential data.  
-- Example: Virtual assistants like Siri and Alexa.  
+- **Speech Recognition**:Converts spoken words into text by processing audio signals as sequential data.  
+  - Example: Virtual assistants like Siri and Alexa.  
 
-- **Time-Series Forecasting**  
-- Predicts future values in time-series data, such as stock prices, weather, or energy consumption.  
+- **Time-Series Forecasting**: Predicts future values in time-series data, such as stock prices, weather, or energy consumption.  
 
-- **Video Analysis**  
-- Processes video data frame by frame for tasks like action recognition and video summarization.  
+- **Video Analysis**: Processes video data frame by frame for tasks like action recognition and video summarization.  
 
-- **Music Composition**  
-- Generates music by learning patterns in sequential note data.  
+- **Music Composition**: Generates music by learning patterns in sequential note data.  
 
-- **Handwriting Recognition**  
-- Recognizes handwritten text by analyzing pen stroke sequences.  
+- **Handwriting Recognition**: Recognizes handwritten text by analyzing pen stroke sequences.
 
----
-
-### 7. Recent Advancements in RNNs  
+### Recent Advancements in RNNs  
 
 - **Attention Mechanism**  
 - Enhances the performance of RNNs by allowing the model to focus on specific parts of the input sequence, addressing long-term dependency issues.  
@@ -291,7 +215,7 @@ RNNs can process variable-length input sequences, making them versatile for dive
 
 ---
 
-### 8. Future Directions for RNNs  
+### Future Directions for RNNs  
 
 - **Optimized Training**  
 - Developing better optimization algorithms to overcome challenges like vanishing gradients and improve efficiency.  
@@ -302,11 +226,9 @@ RNNs can process variable-length input sequences, making them versatile for dive
 - **Integration with Transformers**  
 - While Transformers have replaced RNNs in many areas, RNNs are still useful for lightweight applications. Hybrid models may leverage the strengths of both architectures.  
 
----
 
-## D. Transformers  (10 Mins)
-
-### 1. Introduction to Transformers  
+## Transformers
+ 
 Transformers are a groundbreaking architecture that has become the foundation of modern artificial intelligence applications, particularly in natural language processing (NLP). Introduced in 2017 by Vaswani et al. in the paper "Attention Is All You Need," Transformers replaced traditional Recurrent Neural Networks (RNNs) and Long Short-Term Memory Networks (LSTMs) in many domains by introducing a parallel processing approach powered by the **self-attention mechanism**. Transformers process entire sequences simultaneously, making them faster, more efficient, and better suited for large-scale datasets.
 
 #### Why Transformers Matter:
@@ -316,7 +238,7 @@ Transformers are a groundbreaking architecture that has become the foundation of
 
 ---
 
-### 2. Key Components of Transformers  
+### Key Components of Transformers  
 
 | **Component**                     | **Description**                                                                                                                   |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
@@ -331,28 +253,19 @@ Transformers are a groundbreaking architecture that has become the foundation of
 |                                  | - **Residual Connections**: Allow information from earlier layers to flow directly to later layers, improving training efficiency and addressing vanishing gradient issues. |
 
 
----
+### Strengths of Transformers  
 
-### 3. Strengths of Transformers  
+- **Parallel Processing**: Unlike RNNs, Transformers process all elements of a sequence simultaneously, greatly improving training speed and scalability.  
 
-- **Parallel Processing**  
-- :zap: Unlike RNNs, Transformers process all elements of a sequence simultaneously, greatly improving training speed and scalability.  
+- **Long-Range Context Understanding**: The self-attention mechanism enables Transformers to capture dependencies between elements regardless of their distance in the sequence, which is critical for tasks like document understanding or summarization.  
 
-- **Long-Range Context Understanding**  
-- :satellite: The self-attention mechanism enables Transformers to capture dependencies between elements regardless of their distance in the sequence, which is critical for tasks like document understanding or summarization.  
+- **Flexibility Across Data Modalities**: Originally designed for NLP, Transformers have been adapted for images, audio, video, and multi-modal tasks.  
 
-- **Flexibility Across Data Modalities**  
-- :universal_access: Originally designed for NLP, Transformers have been adapted for images, audio, video, and multi-modal tasks.  
+- **Scalability**: Transformers excel in large-scale training scenarios, such as pretraining on massive datasets and fine-tuning for specific tasks.  
 
-- **Scalability**  
-- :chart_with_upwards_trend: Transformers excel in large-scale training scenarios, such as pretraining on massive datasets and fine-tuning for specific tasks.  
+- **Transfer Learning**: Pretrained Transformers like BERT, GPT, and T5 enable transfer learning, where a model trained on a large corpus is fine-tuned for a specific task with minimal data.
 
-- **Transfer Learning**  
-- :recycle: Pretrained Transformers like BERT, GPT, and T5 enable transfer learning, where a model trained on a large corpus is fine-tuned for a specific task with minimal data.
-
----
-
-### 4. Limitations of Transformers  
+### Limitations of Transformers  
 
 - 🖥️ **Computational Complexity**: The self-attention mechanism has a quadratic complexity relative to sequence length, requiring significant computational resources and memory for long sequences.  
 
@@ -362,12 +275,7 @@ Transformers are a groundbreaking architecture that has become the foundation of
 
 - 🌍 **Energy Consumption**: Training large models like GPT-3 and BERT consumes significant computational energy, raising concerns about environmental impact and accessibility.  
 
-
----
-
-### 5. Applications of Transformers  
-
-
+### Applications of Transformers  
 
 🚀 **Natural Language Processing (NLP)**  
 **Transformers redefine language tasks** with groundbreaking models like GPT and BERT:  
@@ -401,60 +309,49 @@ Breaking boundaries across data types:
 - 🖌️ **Text-to-Image Generation**: Models like DALL·E create visuals from textual descriptions.  
 - 🔍 **Text and Image Understanding**: CLIP bridges the gap between textual and visual data.  
 
-## 🔬 **Scientific Research**  
+🔬 **Scientific Research**  
 Transformers tackle complex data challenges:  
 - ⚛️ **Protein Folding**: AlphaFold predicts protein structures for groundbreaking biological insights.  
 - 🧪 **Domain-Specific Applications**: Physics, chemistry, and beyond.  
 
----
-
 ### **Key Takeaway:**  
 Transformers are versatile, revolutionizing industries from creative arts to healthcare, with the potential to shape the future of AI-driven innovation.
- 
 
----
+### Popular Transformer Architectures  
 
-### 6. Popular Transformer Architectures  
-
-- **BERT (Bidirectional Encoder Representations from Transformers)**  
+#### **BERT (Bidirectional Encoder Representations from Transformers)**  
 - Focuses on understanding the context of words by reading text in both directions.  
 - Applications: Question answering, text classification, and entity recognition.  
 
-- **GPT (Generative Pretrained Transformer)**  
+#### **GPT (Generative Pretrained Transformer)**  
 - Specializes in generating text by predicting the next word in a sequence.  
 - Applications: Chatbots, creative writing, and content generation.  
 
-- **T5 (Text-to-Text Transfer Transformer)**  
+#### **T5 (Text-to-Text Transfer Transformer)**  
 - Converts every NLP task into a text-to-text format, allowing a unified approach to problem-solving.  
 
-- **Vision Transformers (ViT)**  
+#### **Vision Transformers (ViT)**  
 - Adapts Transformers to image processing, competing with and sometimes surpassing CNNs in tasks like classification and segmentation.  
 
-- **DALL·E**  
+#### **DALL·E**  
 - Combines Transformers with generative capabilities to create images from textual descriptions.  
 
-- **AlphaFold**  
+#### **AlphaFold**  
 - Uses Transformers to predict protein structures, revolutionizing the field of biology.  
 
----
 
-### 7. Advancements in Transformer Technology  
 
-- **Efficient Transformers**  
-- Architectures like Longformer, Big Bird, and Reformer optimize memory and computation, making Transformers suitable for processing long sequences.  
+### Advancements in Transformer Technology  
 
-- **Sparse Attention Mechanisms**  
-- Reduces the computational overhead of self-attention by focusing only on relevant parts of the sequence.  
+- **Efficient Transformers**: Architectures like Longformer, Big Bird, and Reformer optimize memory and computation, making Transformers suitable for processing long sequences.  
 
-- **Multi-Modal Transformers**  
-- Unified models like CLIP and Flamingo process text, images, and audio for complex tasks like video understanding and image captioning.  
+- **Sparse Attention Mechanisms**: Reduces the computational overhead of self-attention by focusing only on relevant parts of the sequence.  
 
-- **Edge Transformers**  
-- Optimized for deployment on mobile and IoT devices, enabling AI at the edge with reduced latency and energy consumption.  
+- **Multi-Modal Transformers**: Unified models like CLIP and Flamingo process text, images, and audio for complex tasks like video understanding and image captioning.  
 
----
+- **Edge Transformers**: Optimized for deployment on mobile and IoT devices, enabling AI at the edge with reduced latency and energy consumption.
 
-### 8. Future Directions for Transformers  
+### Future Directions for Transformers  
 
 - 🌱 **Green AI**: Developing more energy-efficient architectures to reduce the carbon footprint of training massive models.  
 
@@ -465,10 +362,9 @@ Transformers are versatile, revolutionizing industries from creative arts to hea
 - 🤝 **Human-AI Collaboration**: Using Transformers in tools that assist creative professionals, such as generating art, music, or code.  
  
 
-## Activity: Deep Learning Architectures
-*  
-
-### **Quick Discussion**  
+## **Activities**: Deep Learning Architectures
+  
+### Activity 1: **Quick Discussion**  
 In small groups or as a class, discuss the following questions:  
 
 1. **FNN vs. CNN**:  
@@ -479,9 +375,8 @@ In small groups or as a class, discuss the following questions:
    - What are the limitations of RNNs (e.g., vanishing gradients)?  
    - How does self-attention in Transformers overcome these challenges?  
 
----
 
-### **(Scenario Analysis)**  
+### Activity 2: **Scenario Analysis**  
 
 Choose **one application** from the list below and answer the prompts:  
 
@@ -493,12 +388,11 @@ Choose **one application** from the list below and answer the prompts:
 - Which architecture (FNN, CNN, RNN, Transformer) would you choose for this task? Why?  
 - What is one challenge you might face, and how would you address it?  
 
--**ShopSmart Example**
+**ShopSmart Example**
+
 ShopSmart applies deep learning architectures effectively:
 
 FNNs: Predicts customer purchasing trends using sales and product data.
 CNNs: Automatically classifies product images and detects damaged goods for inventory optimization.
 RNNs: Uses LSTMs to forecast sales trends and power chatbots for personalized customer interactions.
 Transformers: Employs BERT for sentiment analysis of customer reviews and GPT for generating personalized marketing messages and interactive product descriptions.
-
----

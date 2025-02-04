@@ -9,16 +9,16 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+introToNeuralNetworks = new Template.Microlesson {
+  friendlyName = "Intro to Neural Networks"
+  dirName = "intro-to-neural-networks"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+overviewOfDeepLearningArchitectures = new Template.Microlesson {
+  friendlyName = Overview of Deep Learning Architectures"
+  dirName = "overview-of-deep-learning-architectures"
   type = "Content"
   videoUrl = ""
 }

@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Intro to Neural Networks + Overview of AI Architectures</span>
   <span class="subhead">References</span>
 </h1>
 
