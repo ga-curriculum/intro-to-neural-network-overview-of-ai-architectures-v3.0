@@ -19,27 +19,3 @@ This is an in-depth exploration of neural networks and AI architectures, coverin
 | [Importance of Data Size and Quality](./importance-of-data-size-and-quality/README.md) | 15 min | The impact of data size and quality on AI performance, optimization techniques, and ethical considerations. |
 | **Total content**                                   | 1 hr 42 min |                                     |
           
-## References
-
-📖 [Reference Materials](./references/README.md)
-
-## Internal
-
-### Prerequisites
-- ML Workflow and Best Practices
-
-### Course landing pages
-
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-neural-networks-overview-of-ai-architecture/canvas-landing-pages/fallback.html)
-
-### Resources
-
-✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
-
-🎥 [Video Hub](./internal-resources/video-hub.md)
-
-🏗️ [Release Notes](./internal-resources/release-notes.md)
-
----
-
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**
