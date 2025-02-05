@@ -48,7 +48,7 @@ Imagine an activation function as a gate: it decides if the signal should pass t
 - **Think about it 🤔**  
   - Why do you think backpropagation is essential for learning?
 
-## **Interactive Activity**: Designing a Neural Network for Traffic Congestion Prediction
+## **Activity**: Designing a Neural Network for Traffic Congestion Prediction
 
 1. **Define the Task:**
    - **Inputs:** Vehicle counts, time of day, weather conditions.
