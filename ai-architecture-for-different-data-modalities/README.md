@@ -32,7 +32,7 @@ Structured data refers to information that is organized in a clear, predefined f
 | Model | Strengths | Challenges |
 |---|---|---|
 | Gradient Boosting Machines (GBMs) | - Built-in handling of missing values. <br> - High accuracy for both regression and classification tasks. <br> - Works well with small-to-moderate datasets. |  | 
-| Deep Neural Networks (DNNs) | - Automatic feature extraction. <br> - Can learn hierarchical patterns in data. | - Require more data and tuning compared to traditional models like GBMs. |
+| Deep Learning Architectures  | - Automatic feature extraction. <br> - Can learn hierarchical patterns in data. | - Require more data and tuning compared to traditional models like GBMs. |
 | Linear Models | - Easy to interpret. <br> - Fast to train and evaluate. | - Limited in capturing non-linear relationships. |
 | Decision Trees and Random Forests | - Handle missing data well. <br> - Provide feature importance metrics. |  |
 
