@@ -133,15 +133,46 @@ CNNs process data hierarchically through multiple layers, with each layer learni
 
 
 ### Popular CNN Architectures  
-- **LeNet-5**: Designed for handwritten digit recognition, it was one of the first successful CNNs.  
 
-- **AlexNet**: Pioneered deep learning in image recognition, introducing ReLU activation and dropout for better performance.  
+**LeNet-5**
 
-- **VGG**: Simplified network design with smaller filters, but deeper layers for better performance.  
+![image](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-neural-network-overview-of-ai-architectures/assets/21623/8b843ad5-f377-4b3d-8507-7945e84ae210)
 
-- **ResNet (Residual Networks)**: Addressed the vanishing gradient problem by introducing skip connections, enabling networks with hundreds of layers.
+[Source](https://www.naukri.com/code360/library/lenet-5)
 
-- **Inception Networks**: Innovated by introducing multi-scale convolutions within a single layer, improving accuracy without increasing computational cost.
+Designed for handwritten digit recognition, it was one of the first successful CNNs.
+
+**AlexNet**
+
+![image](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-neural-network-overview-of-ai-architectures/assets/21623/f150c6c7-e840-48da-9fa4-5bd87fbf9dfd)
+
+[Source](https://www.researchgate.net/figure/Architecture-of-AlexNet_fig1_344317236)
+
+Pioneered deep learning in image recognition, introducing ReLU activation and dropout for better performance.
+
+**VGG**
+
+![image](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-neural-network-overview-of-ai-architectures/assets/21623/02f00681-1db1-441d-a09a-f32128d5fa0d)
+
+[Source](https://medium.com/@siddheshb008/vgg-net-architecture-explained-71179310050f)
+
+Simplified network design with smaller filters, but deeper layers for better performance.  
+
+**ResNet (Residual Networks)**
+
+![image](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-neural-network-overview-of-ai-architectures/assets/21623/7952eff1-6126-4951-921a-98eb96f857f8)
+
+[Source](https://www.researchgate.net/figure/Workflow-diagram-a-Typical-architecture-of-the-101-layer-ResNet-b-The-flowchart-of_fig3_343374745)
+
+Addressed the vanishing gradient problem by introducing skip connections, enabling networks with hundreds of layers.
+
+**Inception Networks**
+
+![image](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-neural-network-overview-of-ai-architectures/assets/21623/6ba3e83b-80d6-498a-9f0b-f7a20535071b)
+
+[Source](https://medium.com/towards-data-science/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202)
+
+Innovated by introducing multi-scale convolutions within a single layer, improving accuracy without increasing computational cost.
 
 ### 9. Future of CNNs  
 - **Hybrid Architectures**: Combining CNNs with RNNs or Transformers to process both spatial and temporal data.
