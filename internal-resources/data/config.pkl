@@ -14,7 +14,7 @@ repo {
   // This name is shown in the header nav to navigate users home
   friendlyName = "Intro to Neural Networks + Overview of AI Architectures"
   // This must match the repo name as it appears on GitHub exactly
-  name = "intro-to-neural-networks-overview-of-ai-architecture"
+  name = "intro-to-neural-network-overview-of-ai-architecture"
   type = "Lesson"
 }
 
