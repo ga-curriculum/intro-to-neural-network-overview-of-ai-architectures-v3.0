@@ -1,4 +1,3 @@
-
 <h1>
   <span class="headline">Intro to Neural Networks + Overview of AI Architectures </span>
   <span class="subhead">Picking the Right Model for the Right Modality</span>
