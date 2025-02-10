@@ -1,4 +1,3 @@
-
 <h1>
   <span class="headline">Intro to Neural Networks + Overview of AI Architectures </span>
   <span class="subhead">Introduction to Neural Networks</span>
@@ -69,6 +68,11 @@ Imagine an activation function as a gate: it decides if the signal should pass t
 - **Activity Instructions:**
   - In pairs, quickly sketch a simple diagram of your neural network design.
   - Be prepared to talk through your design and proccess!
+
+## Navigation
+
+- [Previous: Setup](../setup/README.md)
+- [Next: Overview of Deep Learning Architectures](../overview-of-deep-learning-architectures/README.md)
 
 
 

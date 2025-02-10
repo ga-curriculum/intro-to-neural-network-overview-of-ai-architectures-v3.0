@@ -441,3 +441,8 @@ FNNs: Predicts customer purchasing trends using sales and product data.
 CNNs: Automatically classifies product images and detects damaged goods for inventory optimization.
 RNNs: Uses LSTMs to forecast sales trends and power chatbots for personalized customer interactions.
 Transformers: Employs BERT for sentiment analysis of customer reviews and GPT for generating personalized marketing messages and interactive product descriptions.
+
+## Navigation
+
+- [Previous: Intro to Neural Networks](../intro-to-neural-networks/README.md)
+- [Next: AI Architecture for Different Data Modalities](../ai-architecture-for-different-data-modalities/README.md)

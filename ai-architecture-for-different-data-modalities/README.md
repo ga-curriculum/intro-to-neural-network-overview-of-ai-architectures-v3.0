@@ -366,3 +366,8 @@ ShopSmart uses AI architectures for finance-related tasks across multiple data m
 - Image Data: Applies CNNs to process expense receipts and invoices, extracting financial details for fraud detection and expense categorization.
 - Text Data: Uses Transformer models (like BERT) to analyze customer financial feedback, identifying refund complaints, and GPT to generate customized financial advice or payment plans.
 
+## Navigation
+
+- [Previous: Overview of Deep Learning Architectures](../overview-of-deep-learning-architectures/README.md)
+- [Next: Picking the Right Model for the Right Modality](../picking-the-right-model-for-the-right-modality/README.md)
+
