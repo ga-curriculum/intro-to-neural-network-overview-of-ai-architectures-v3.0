@@ -48,11 +48,6 @@ graph TD;
     C -->|W2 * a1 + b2| D[Hidden Layer 3: z2]
     D -->|Activation: f(z2)| E[Output Layer: ŷ]
 
-    subgraph Activation_Functions[Activation Functions]
-        f1[ReLU, Sigmoid, etc.]
-        f2[ReLU, Sigmoid, etc.]
-    end
-
     %% Referencing activation functions outside the subgraph
     B -.-> f1
     D -.-> f2
@@ -70,18 +65,11 @@ graph TD;
     D -->|∂L/∂W3 (Weight Update)| C[Hidden Layer 2]
     C -->|∂L/∂W2 (Weight Update)| B[Hidden Layer 1]
     B -->|∂L/∂W1 (Weight Update)| A[Input Layer]
-    
-    subgraph Weight_Updates[Weight Updates]
-        W1[W1 = W1 - η * ∂L/∂W1]
-        W2[W2 = W2 - η * ∂L/∂W2]
-        W3[W3 = W3 - η * ∂L/∂W3]
-    end
 
     E -->|Gradient of Loss ∂L/∂ŷ| W3
     D -->|∂L/∂a3 * f\'(z3)| W2
     C -->|∂L/∂a2 * f\'(z2)| W1
 </div>
-
 
 - **Think about it 🤔**  
   - Why do you think backpropagation is essential for learning?
