@@ -42,15 +42,41 @@ Imagine an activation function as a gate: it decides if the signal should pass t
   - **Process:** Data flows from input through each layer to produce an output.
 <div class="mermaid">
 graph TD;
-    A[Input Layer] --> B[Hidden Layer 1]
-    B --> C[Hidden Layer 2]
-    C --> D[Hidden Layer 3]
-    D --> E[Output Layer]
+    A[Input Layer: x] -->|W1 * x + b1| B[Hidden Layer 1: z1]
+    B -->|Activation: f(z1)| C[Hidden Layer 2: a1]
+    C -->|W2 * a1 + b2| D[Hidden Layer 3: z2]
+    D -->|Activation: f(z2)| E[Output Layer: ŷ]
+
+    subgraph Activations
+        f1[f(z1) = ReLU, Sigmoid, etc.]
+        f2[f(z2) = ReLU, Sigmoid, etc.]
+    end
+    
+    B -->|Pass through f1| f1
+    D -->|Pass through f2| f2
 </div>
 
 - **Backpropagation:**  
   - **Purpose:** Adjust weights and biases based on error feedback.
   - **Simplification:** Compare it to adjusting a recipe based on taste tests.
+<div class="mermaid">
+graph TD;
+    E[Output Layer] -->|Compute Loss: L(y, ŷ)| D[Hidden Layer 3]
+    D -->|∂L/∂W3 (Weight Update)| C[Hidden Layer 2]
+    C -->|∂L/∂W2 (Weight Update)| B[Hidden Layer 1]
+    B -->|∂L/∂W1 (Weight Update)| A[Input Layer]
+    
+    subgraph Weight Updates
+        W1[W1 = W1 - η * ∂L/∂W1]
+        W2[W2 = W2 - η * ∂L/∂W2]
+        W3[W3 = W3 - η * ∂L/∂W3]
+    end
+
+    E -->|Gradient of Loss ∂L/∂ŷ| W3
+    D -->|∂L/∂a3 * f'(z3)| W2
+    C -->|∂L/∂a2 * f'(z2)| W1
+
+</div>
 - **Think about it 🤔**  
   - Why do you think backpropagation is essential for learning?
 
