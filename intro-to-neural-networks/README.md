@@ -59,6 +59,7 @@ graph TD;
 </div>
 
 
+
 - **Backpropagation:**  
   - **Purpose:** Adjust weights and biases based on error feedback.
   - **Simplification:** Compare it to adjusting a recipe based on taste tests.
@@ -77,9 +78,10 @@ graph TD;
     end
 
     E -->|Gradient of Loss ∂L/∂ŷ| W3
-    D -->|∂L/∂a3 * f'(z3)| W2
-    C -->|∂L/∂a2 * f'(z2)| W1
+    D -->|∂L/∂a3 * f\'(z3)| W2
+    C -->|∂L/∂a2 * f\'(z2)| W1
 </div>
+
 
 - **Think about it 🤔**  
   - Why do you think backpropagation is essential for learning?
