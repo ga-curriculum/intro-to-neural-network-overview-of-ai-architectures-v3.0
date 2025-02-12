@@ -43,10 +43,21 @@ Imagine an activation function as a gate: it decides if the signal should pass t
 
 <div class="mermaid">
 graph TD;
-    A[Input] --> B[Hidden 1];
-    B --> C[Hidden 2];
-    C --> D[Output];
+    A[Input Layer: x] -->|W1 * x + b1| B[Hidden Layer 1: z1]
+    B -->|Activation: f(z1)| C[Hidden Layer 2: a1]
+    C -->|W2 * a1 + b2| D[Hidden Layer 3: z2]
+    D -->|Activation: f(z2)| E[Output Layer: yhat]
+    
+    subgraph Activation_Functions[Activation Functions]
+        F1[ReLU, Sigmoid, etc.]
+        F2[ReLU, Sigmoid, etc.]
+    end
+
+    %% Referencing activation functions from the subgraph
+    B -.-> F1
+    D -.-> F2
 </div>
+
 
 ### **Backpropagation:**  
   - **Purpose:** Adjust weights and biases based on error feedback.
