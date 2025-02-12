@@ -38,7 +38,7 @@ Imagine an activation function as a gate: it decides if the signal should pass t
   - **Challenges:** Overfitting, computational cost, and training complexities.
 
 ## Forward Propagation and Backpropagation
-- **Forward Propagation:**  
+### **Forward Propagation:**  
   - **Process:** Data flows from input through each layer to produce an output.
 
 <div class="mermaid">
@@ -48,7 +48,7 @@ graph TD;
     C --> D[Output];
 </div>
 
-- **Backpropagation:**  
+### **Backpropagation:**  
   - **Purpose:** Adjust weights and biases based on error feedback.
   - **Simplification:** Compare it to adjusting a recipe based on taste tests.
   
@@ -60,7 +60,7 @@ graph TD;
 </div>
 
 
-- **Think about it 🤔**  
+### **Think about it 🤔**  
   - Why do you think backpropagation is essential for learning?
 
 ## **Activity**: Designing a Neural Network for Traffic Congestion Prediction
