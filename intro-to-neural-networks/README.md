@@ -40,7 +40,14 @@ Imagine an activation function as a gate: it decides if the signal should pass t
 ## Forward Propagation and Backpropagation
 - **Forward Propagation:**  
   - **Process:** Data flows from input through each layer to produce an output.
-  - **Visual:** A simple flowchart showing the forward pass.
+<div class="mermaid">
+graph TD;
+    A[Input Layer] --> B[Hidden Layer 1]
+    B --> C[Hidden Layer 2]
+    C --> D[Hidden Layer 3]
+    D --> E[Output Layer]
+</div>
+
 - **Backpropagation:**  
   - **Purpose:** Adjust weights and biases based on error feedback.
   - **Simplification:** Compare it to adjusting a recipe based on taste tests.
