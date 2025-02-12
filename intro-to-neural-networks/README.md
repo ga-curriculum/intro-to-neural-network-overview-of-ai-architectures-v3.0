@@ -45,15 +45,17 @@ graph TD;
     A[Input Layer: x] -->|W1 * x + b1| B[Hidden Layer 1: z1]
     B -->|Activation: f(z1)| C[Hidden Layer 2: a1]
     C -->|W2 * a1 + b2| D[Hidden Layer 3: z2]
-    D -->|Activation: f(z2)| E[Output Layer: ŷ]
+    D -->|Activation: f(z2)| E[Output Layer: y_hat]
 
-    subgraph Activations
-        f1[f(z1) = ReLU, Sigmoid, etc.]
-        f2[f(z2) = ReLU, Sigmoid, etc.]
+    subgraph Activation Functions
+        f1[ReLU, Sigmoid, etc.]
+        f2[ReLU, Sigmoid, etc.]
     end
-    
-    B -->|Pass through f1| f1
-    D -->|Pass through f2| f2
+
+    %% Referencing activation functions outside the subgraph
+    B -.-> f1
+    D -.-> f2
+
 </div>
 
 - **Backpropagation:**  
