@@ -17,16 +17,26 @@ Structured data refers to information that is organized in a clear, predefined f
 - **Relational databases**: Data stored in SQL or other database management systems. 
 
 ### Key Challenges in Handling Structured Data  
-#### Data Quality Issues
-- **Missing Values**: Many datasets have incomplete information that needs to be imputed or handled appropriately.  
-- **Outliers**: Extreme values can skew analysis and predictions, requiring proper identification and treatment.  
-- **Inconsistent Formats**: Data from multiple sources often have inconsistent formats, such as mismatched date and currency formats.
-#### Feature Engineering  
-- **Feature Selection**: Identifying the most important variables from the data.  
-- **Feature Creation**: Deriving new variables that capture relationships between existing features.  
-- **Categorical Encoding**: Converting categorical variables into numerical formats using methods like one-hot encoding or label encoding.  
-#### Scalability
+
+#### **Data Quality Issues**  
+- **Missing Values**  
+  - Many datasets have incomplete information that needs to be imputed or handled appropriately.  
+- **Outliers**  
+  - Extreme values can skew analysis and predictions, requiring proper identification and treatment.  
+- **Inconsistent Formats**  
+  - Data from multiple sources often have inconsistent formats, such as mismatched date and currency formats.  
+
+#### **Feature Engineering**  
+- **Feature Selection**  
+  - Identifying the most important variables from the data.  
+- **Feature Creation**  
+  - Deriving new variables that capture relationships between existing features.  
+- **Categorical Encoding**  
+  - Converting categorical variables into numerical formats using methods like one-hot encoding or label encoding.  
+
+#### **Scalability**  
 - Handling large volumes of structured data efficiently, especially in real-time or near real-time scenarios.  
+  
 
 ### AI Architectures for Structured Data  
 | Model | Strengths | Challenges |
