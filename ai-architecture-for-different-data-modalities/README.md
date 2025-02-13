@@ -39,12 +39,13 @@ Structured data refers to information that is organized in a clear, predefined f
   
 
 ### AI Architectures for Structured Data  
-| Model | Strengths | Challenges |
-|---|---|---|
-| Gradient Boosting Machines (GBMs) | - Built-in handling of missing values. <br> - High accuracy for both regression and classification tasks. <br> - Works well with small-to-moderate datasets. |  | 
-| Deep Learning Architectures  | - Automatic feature extraction. <br> - Can learn hierarchical patterns in data. | - Require more data and tuning compared to traditional models like GBMs. |
-| Linear Models | - Easy to interpret. <br> - Fast to train and evaluate. | - Limited in capturing non-linear relationships. |
-| Decision Trees and Random Forests | - Handle missing data well. <br> - Provide feature importance metrics. |  |
+| **Model**                          | **Strengths**                                              | **Challenges** |
+|------------------------------------|----------------------------------------------------------|---------------|
+| **Gradient Boosting Machines (GBMs)** | - Built-in handling of missing values.  <br> - High accuracy for both regression and classification tasks.  <br> - Works well with small-to-moderate datasets. | Requires hyperparameter tuning and is computationally intensive for large datasets. |
+| **Deep Learning Architectures**     | - Automatic feature extraction.  <br> - Can learn hierarchical patterns in data. | - Require more data and tuning compared to traditional models like GBMs. |
+| **Linear Models**                   | - Easy to interpret.  <br> - Fast to train and evaluate. | - Limited in capturing non-linear relationships. |
+| **Decision Trees & Random Forests**  | - Handle missing data well.  <br> - Provide feature importance metrics. | - Can overfit without proper pruning or tuning. |
+
 
 
 ### Techniques for Optimizing Structured Data Models  
@@ -65,13 +66,14 @@ Structured data refers to information that is organized in a clear, predefined f
 
 ### Applications of Structured Data in AI  
 
-| **Industry**| **Applications**|
-|---|---|
-| **💰 Finance and Banking**            | - Fraud detection using transaction logs. <br> - Credit scoring based on customer demographic and financial data. <br> - Portfolio optimization using historical market data. |
-| **🩺 Healthcare**                     | - Patient diagnosis predictions using electronic health records (EHR). <br> - Hospital resource allocation based on patient admission data. |
-| **🛒 Retail and E-commerce**          | - Customer segmentation based on purchase history and demographics. <br> - Inventory management and demand forecasting using sales data. |
-| **🏭 Manufacturing**                  | - Predictive maintenance using sensor data from industrial machinery. <br> - Quality control based on structured production data. |
-| **🚚 Transportation**                 | - Route optimization and demand forecasting for logistics companies. <br> - Traffic prediction using sensor and historical data. |
+| **Industry**                | **Applications** |
+|-----------------------------|------------------|
+| **💰 Finance & Banking**      | - **Fraud detection** using transaction logs.  <br> - **Credit scoring** based on customer demographic and financial data.  <br> - **Portfolio optimization** using historical market data. |
+| **🩺 Healthcare**            | - **Patient diagnosis predictions** using electronic health records (EHR).  <br> - **Hospital resource allocation** based on patient admission data. |
+| **🛒 Retail & E-Commerce**   | - **Customer segmentation** based on purchase history and demographics.  <br> - **Inventory management & demand forecasting** using sales data. |
+| **🏭 Manufacturing**         | - **Predictive maintenance** using sensor data from industrial machinery.  <br> - **Quality control** based on structured production data. |
+| **🚚 Transportation**        | - **Route optimization & demand forecasting** for logistics companies.  <br> - **Traffic prediction** using sensor and historical data. |
+
 
 ---
   
@@ -103,17 +105,24 @@ Image processing is a crucial domain in artificial intelligence, powering applic
 
 #### **Convolutional Neural Networks (CNNs)**  
 - CNNs are the most widely used architectures for image data due to their ability to extract spatial features.  
-- **Components of CNNs**:  
-  - **Convolutional Layers**: Extract features like edges, shapes, and objects.  
-  - **Pooling Layers**: Reduce spatial dimensions while retaining key features.  
-  - **Fully Connected Layers**: Perform classification or regression based on extracted features.  
+- **Components of CNNs:**  
+  - **Convolutional Layers**  
+    - Extract features like edges, shapes, and objects.  
+  - **Pooling Layers**  
+    - Reduce spatial dimensions while retaining key features.  
+  - **Fully Connected Layers**  
+    - Perform classification or regression based on extracted features.  
 
 #### **Vision Transformers (ViTs)**  
 - ViTs process images by dividing them into patches and treating each patch as a sequence input, similar to words in a sentence.  
-- **Advantages**:  
-  - Capture global context more effectively than CNNs.  
-  - Scalable to large datasets.  
-- **Applications**: Image classification, object detection, and segmentation.  
+- **Advantages:**  
+  - **Capture global context** more effectively than CNNs.  
+  - **Scalable** to large datasets.  
+- **Applications:**  
+  - **Image Classification**  
+  - **Object Detection**  
+  - **Segmentation**  
+ 
 
 ### Techniques for Image Data Processing  
 - **Normalization**: Scale pixel values to a standard range (e.g., 0 to 1) for consistent processing.  
@@ -140,16 +149,17 @@ Image processing is a crucial domain in artificial intelligence, powering applic
 ### Tools and Frameworks for Image Data Processing  
 
 - **OpenCV**  
-- Open-source library for image and video processing, offering tools for edge detection, object tracking, and more.  
+  - Open-source library for image and video processing, offering tools for edge detection, object tracking, and more.  
 
 - **TensorFlow and PyTorch**  
-- Popular deep learning frameworks with extensive support for CNNs, ViTs, and other image-processing models.  
+  - Popular deep learning frameworks with extensive support for CNNs, ViTs, and other image-processing models.  
 
 - **Keras Applications**  
-- Provides pre-trained models like ResNet, Inception, and MobileNet for easy transfer learning.  
+  - Provides pre-trained models like ResNet, Inception, and MobileNet for easy transfer learning.  
 
 - **Scikit-image**  
-- Python library for image processing with tools for feature extraction, filtering, and segmentation.
+  - Python library for image processing with tools for feature extraction, filtering, and segmentation.  
+
 
 ### Future Directions for Image Data Processing  
 
