@@ -92,6 +92,7 @@ CNNs process data hierarchically through multiple layers, with each layer learni
 - Makes CNNs robust to variations such as rotation, scaling, and translation.
 
 ### Strengths of CNNs  
+
 | **Feature**| **Description**|
 |------------|----------------|
 | **Spatial Feature Extraction** | CNNs excel at identifying spatial dependencies in data, such as the relationship between nearby pixels in an image.                |
