@@ -39,12 +39,14 @@ Structured data refers to information that is organized in a clear, predefined f
   
 
 ### AI Architectures for Structured Data  
-| **Model**                          | **Strengths**                                              | **Challenges** |
-|------------------------------------|----------------------------------------------------------|---------------|
-| **Gradient Boosting Machines (GBMs)** | - Built-in handling of missing values.  <br> - High accuracy for both regression and classification tasks.  <br> - Works well with small-to-moderate datasets. | Requires hyperparameter tuning and is computationally intensive for large datasets. |
-| **Deep Learning Architectures**     | - Automatic feature extraction.  <br> - Can learn hierarchical patterns in data. | - Require more data and tuning compared to traditional models like GBMs. |
-| **Linear Models**                   | - Easy to interpret.  <br> - Fast to train and evaluate. | - Limited in capturing non-linear relationships. |
-| **Decision Trees & Random Forests**  | - Handle missing data well.  <br> - Provide feature importance metrics. | - Can overfit without proper pruning or tuning. |
+
+| **Model**                              | **Strengths**                                              | **Challenges** |
+|----------------------------------------|----------------------------------------------------------|---------------|
+| **🌳 Gradient Boosting Machines (GBMs)** | - Built-in handling of missing values.  <br> - High accuracy for both regression and classification tasks.  <br> - Works well with small-to-moderate datasets. | - Requires hyperparameter tuning and is computationally intensive for large datasets. |
+| **🧠 Deep Learning Architectures**       | - Automatic feature extraction.  <br> - Can learn hierarchical patterns in data. | - Require more data and tuning compared to traditional models like GBMs. |
+| **📉 Linear Models**                     | - Easy to interpret.  <br> - Fast to train and evaluate. | - Limited in capturing non-linear relationships. |
+| **🌲 Decision Trees & Random Forests**   | - Handle missing data well.  <br> - Provide feature importance metrics. | - Can overfit without proper pruning or tuning. |
+
 
 
 
