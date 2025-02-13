@@ -204,6 +204,7 @@ RNNs process sequences by iteratively passing inputs through a recurrent loop, w
 In sentiment analysis, the network processes words in a sentence sequentially, maintaining context from previous words to determine the overall sentiment.
 
 ### Types of RNN Architectures  
+
 | **Type**| **Definition**| **Key Features / Strengths**| **Applications / Limitations**|
 |---------|---------------|-----------------------------|-------------------------------|
 | **Vanilla RNN**               | The simplest RNN architecture where each neuron takes the current input and the hidden state from the previous time step.  | -                                                                                                                        | Struggles with long-term dependencies due to vanishing or exploding gradient problems.                           |
