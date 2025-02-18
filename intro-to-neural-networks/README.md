@@ -10,7 +10,7 @@
 - **Differentiate** between shallow and deep neural network architectures.
 - **Engage** in a simple design activity applying these concepts.
 
-<img src="assets/artificial_neuron.png" alt="artificial_neuron">
+<img src="assets/artificial_neuron.png" alt="artificial neurons">
 
 ## Understanding Artificial Neurons
 
@@ -30,11 +30,13 @@
   - **ReLU:** Outputs the input if positive; otherwise, zero. Ideal for hidden layers.
   - **Sigmoid:** Squashes values between 0 and 1, useful for probability outputs.
 
+<img src="assets/popular_activiation_functions.png" alt="popular activation functions" style="height: 300px">
+
 Imagine an activation function as a gate: it decides if the signal should pass through or not.
 
 ## Shallow vs. Deep Neural Networks
 
-<img src="assets/Shallow-MLP-vs-deep-MLP-57.png" alt="artificial_neuron">
+<img src="assets/Shallow-MLP-vs-deep-MLP-57.png" alt="shallow vs deep neural networks">
 
 - **Shallow Networks:**
   - **Definition:** A network with just one hidden layer.
