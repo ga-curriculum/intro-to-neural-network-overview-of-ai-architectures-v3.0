@@ -96,3 +96,66 @@ graph TD;
 - **Activity Instructions:**
   - In pairs, quickly sketch a simple diagram of your neural network design.
   - Be prepared to talk through your design and proccess!
+
+Sample Diagram
+
+```
+flowchart TD
+    subgraph Input Layer
+      A1[Vehicle Count]
+      A2[Time of Day]
+      A3[Weather]
+    end
+
+    subgraph Hidden Layer
+      B1[Neuron 1 ReLU]
+      B2[Neuron 2 ReLU]
+      B3[Neuron 3 ReLU]
+      B4[Neuron 4 ReLU]
+      B5[Neuron 5 ReLU]
+    end
+
+    subgraph Output Layer
+      C1[Green Duration Linear]
+      C2[Yellow Duration Linear]
+      C3[Red Duration Linear]
+    end
+
+    A1 --> B1
+    A1 --> B2
+    A1 --> B3
+    A1 --> B4
+    A1 --> B5
+
+    A2 --> B1
+    A2 --> B2
+    A2 --> B3
+    A2 --> B4
+    A2 --> B5
+
+    A3 --> B1
+    A3 --> B2
+    A3 --> B3
+    A3 --> B4
+    A3 --> B5
+
+    B1 --> C1
+    B1 --> C2
+    B1 --> C3
+
+    B2 --> C1
+    B2 --> C2
+    B2 --> C3
+
+    B3 --> C1
+    B3 --> C2
+    B3 --> C3
+
+    B4 --> C1
+    B4 --> C2
+    B4 --> C3
+
+    B5 --> C1
+    B5 --> C2
+    B5 --> C3
+```
