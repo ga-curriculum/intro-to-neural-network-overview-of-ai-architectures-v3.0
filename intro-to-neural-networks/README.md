@@ -34,6 +34,8 @@ Imagine an activation function as a gate: it decides if the signal should pass t
 
 ## Shallow vs. Deep Neural Networks
 
+<img src="assets/Shallow-MLP-vs-deep-MLP-57.png" alt="artificial_neuron">
+
 - **Shallow Networks:**
   - **Definition:** A network with just one hidden layer.
   - **Example Use-Cases:** Predicting house prices, simple binary classification (e.g., spam detection).
