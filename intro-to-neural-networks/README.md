@@ -98,13 +98,6 @@ graph TD;
 <details>
 <summary>✅ Click for Sample Diagram</summary>
 
-  **Input Layer:**
-    -   Three nodes labeled "Vehicle Count," "Time of Day," and "Weather."
-  **Hidden Layer:**
-    -   A layer of 4-5 neurons (each connected to all input nodes, using ReLU).
-  **Output Layer:**
-    -   Three nodes labeled "Green Duration," "Yellow Duration," and "Red Duration" (using a linear activation function).
-
 ```
 flowchart TD
     subgraph Input Layer
