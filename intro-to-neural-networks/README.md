@@ -99,7 +99,7 @@ graph TD;
 
 Sample Diagram
 
-```
+<div class="mermaid">
 flowchart TD
     subgraph Input Layer
       A1[Vehicle Count]
@@ -158,4 +158,4 @@ flowchart TD
     B5 --> C1
     B5 --> C2
     B5 --> C3
-```
+</div>
