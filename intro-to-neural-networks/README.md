@@ -95,8 +95,7 @@ graph TD;
   - In pairs, quickly sketch a simple diagram of your neural network design.
   - Be prepared to talk through your design and proccess!
 
-<details>
-<summary>✅ Click for Sample Diagram</summary>
+Sample Diagram
 
 ```
 flowchart TD
@@ -158,5 +157,3 @@ flowchart TD
     B5 --> C2
     B5 --> C3
 ```
-
-</details>
