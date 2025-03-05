@@ -4,7 +4,7 @@
     "name": "modular-curriculum-all-courses"
   },
   "repo": {
-    "friendlyName": "Intro to Neural Networks + Overview of AI Architectures",
+    "friendlyName": "Intro to Neural Network & Overview of AI Architectures",
     "name": "intro-to-neural-network-overview-of-ai-architectures",
     "type": "Lesson",
     "about": "",
@@ -22,12 +22,12 @@
         {
           "friendlyName": "Setup",
           "dirName": "setup",
-          "type": "Content",
+          "type": "Setup",
           "skill": "",
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
+          "estimatedDeliveryTimeInMinutes": 2
         },
         {
           "friendlyName": "Intro to Neural Networks",
@@ -37,47 +37,37 @@
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
+          "estimatedDeliveryTimeInMinutes": 20
         },
         {
-          "friendlyName": "Overview of Deep Learning Architectures",
-          "dirName": "overview-of-deep-learning-architectures",
+          "friendlyName": "Deep Learning Architectures",
+          "dirName": "deep-learning-architectures",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
+          "estimatedDeliveryTimeInMinutes": 20
         },
         {
-          "friendlyName": "AI Architecture for Different Data Modalities",
-          "dirName": "ai-architecture-for-different-data-modalities",
+          "friendlyName": "AI Architectures for Different Data Modalities",
+          "dirName": "ai-architectures-for-different-data-modalities",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
+          "estimatedDeliveryTimeInMinutes": 25
         },
         {
-          "friendlyName": "Picking the Right Model for the Right Modality",
-          "dirName": "picking-the-right-model-for-the-right-modality",
+          "friendlyName": "Case Study: Choosing the Right AI Model",
+          "dirName": "choosing-the-right-model",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "Importance of Data Size and Quality",
-          "dirName": "importance-of-data-size-and-quality",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
+          "estimatedDeliveryTimeInMinutes": 25
         }
       ],
       "isHeaderShown": true,
