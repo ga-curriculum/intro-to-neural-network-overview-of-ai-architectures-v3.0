@@ -118,7 +118,7 @@ graph LR;
 
 ---
 
-## **5. Coding Walkthrough: Fine-Tuning a Transformer for Text Classification**
+## **Coding Walkthrough: Fine-Tuning a Transformer for Text Classification**
 
 ### **Objective:**
 - Load a pre-trained Transformer model (**DistilBERT**) and fine-tune it for sentiment classification.
@@ -141,7 +141,7 @@ print(classifier("I did not enjoy this product at all."))
 
 ---
 
-## **6. Summary & Key Takeaways**
+## **Summary & Key Takeaways**
 - Different deep learning architectures specialize in different data types.
 - CNNs excel at **image processing**, while Transformers dominate **text and multimodal tasks**.
 - **Choosing the right architecture is essential for model performance and efficiency**.
