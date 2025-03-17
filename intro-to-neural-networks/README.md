@@ -3,21 +3,18 @@
   <span class="subhead">Introduction to Neural Networks</span>
 </h1>
 
-
-**Lesson Objectives**
----------------------
+## **Lesson Objectives**
 
 By the end of this lesson, students will be able to:
 
--   Understand the fundamental structure of a neural network.
--   Explain how neural networks learn from data.
--   Identify why data quality is critical for AI model performance.
--   Recognize common data-related issues that impact neural networks (bias, noise, augmentation, and synthetic data).
+- Understand the fundamental structure of a neural network.
+- Explain how neural networks learn from data.
+- Identify why data quality is critical for AI model performance.
+- Recognize common data-related issues that impact neural networks (bias, noise, augmentation, and synthetic data).
 
-* * * * *
+---
 
-**What is a Neural Network?**
----------------------------------
+## **What is a Neural Network?**
 
 Neural networks are a type of machine learning model inspired by the human brain. They consist of interconnected layers of artificial neurons that process input data to identify patterns and make predictions.
 
@@ -33,13 +30,13 @@ graph TD;
 
 **Key Elements:**
 
--   **Neurons (Nodes):** Process input values and pass information forward.
--   **Layers:**
-    -   **Input Layer**: Accepts raw data.
-    -   **Hidden Layers**: Perform computations and transformations.
-    -   **Output Layer**: Produces predictions or classifications.
--   **Weights & Biases:** Adjust to minimize error during training.
--   **Activation Functions:** Determine neuron firing (e.g., ReLU, Sigmoid, Softmax).
+- **Neurons (Nodes):** Process input values and pass information forward.
+- **Layers:**
+  - **Input Layer**: Accepts raw data.
+  - **Hidden Layers**: Perform computations and transformations.
+  - **Output Layer**: Produces predictions or classifications.
+- **Weights & Biases:** Adjust to minimize error during training.
+- **Activation Functions:** Determine neuron firing (e.g., ReLU, Sigmoid, Softmax).
 
 ### **How Neural Networks Learn**
 
@@ -58,10 +55,9 @@ sequenceDiagram
 
 > **Key Takeaway:** Neural networks **learn from data**, and the quality of that data directly affects their ability to generalize and make accurate predictions.
 
-* * * * *
+---
 
-**Importance of Data Quality in Neural Networks**
------------------------------------------------------
+## **Importance of Data Quality in Neural Networks**
 
 Neural networks rely on data to learn patterns and make predictions. Poor data quality can lead to **overfitting, bias, and poor generalization** to real-world scenarios.
 
@@ -90,10 +86,9 @@ pie
 
 > **Key Takeaway:** Even the most advanced neural network cannot compensate for poor-quality data. **High-quality, diverse, and well-labeled datasets are critical for robust AI models.**
 
-* * * * *
+---
 
-**Guided Walkthrough: Understanding Data Quality in Neural Networks**
--------------------------------------------------------------------------
+## **Guided Walkthrough: Understanding Data Quality in Neural Networks**
 
 In this guided walkthrough, follow along as your instrcutor talks through the different aspects of the code. You can also code along during the walkthrough and execute the code in your notebook for this lesson.
 
@@ -101,23 +96,23 @@ In this guided walkthrough, follow along as your instrcutor talks through the di
 
 1.  The instructor will introduce the Python script, explaining its key components:
 
-    -   Generating synthetic datasets with different data quality issues.
+    - Generating synthetic datasets with different data quality issues.
 
-    -   Training a neural network using TensorFlow/Keras.
+    - Training a neural network using TensorFlow/Keras.
 
-    -   Evaluating how accuracy changes based on dataset quality.
+    - Evaluating how accuracy changes based on dataset quality.
 
 2.  As the instructor runs the script, be sure to pay close attention to the following:
 
-    -   How noise, imbalance, and missing labels affect model accuracy.
+    - How noise, imbalance, and missing labels affect model accuracy.
 
-    -   Why data quality is as important as model architecture.
+    - Why data quality is as important as model architecture.
 
 3.  Be prepared to discuss the reflection questions with the class once the walkthrough is complete!
 
 #### **Python Code:**
 
-```
+```python
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
@@ -145,7 +140,14 @@ X3, y3 = generate_data(500, missing_labels=True)
 
 # Train a simple model on each dataset
 def train_model(X, y):
-    X_train, X_test, y_train, y_test = train_test_split(X, y[y >= 0], test_size=0.2)
+    # Filter out samples with negative labels first
+    mask = y >= 0
+    X_filtered = X[mask]
+    y_filtered = y[mask]
+
+    # Now split the filtered data
+    X_train, X_test, y_train, y_test = train_test_split(X_filtered, y_filtered, test_size=0.2)
+
     model = keras.Sequential([
         keras.layers.Dense(32, activation='relu', input_shape=(10,)),
         keras.layers.Dense(16, activation='relu'),
@@ -169,14 +171,11 @@ print("Dataset 3 Accuracy:", train_model(X3, y3))
 - What techniques could improve the lower-performing models?
 - How does this reinforce the importance of data quality in AI development?
 
-* * * * *
+---
 
-**Summary & Key Takeaways**
--------------------------------
+## **Summary & Key Takeaways**
 
--   Neural networks mimic the brain's structure and learn from **layered computations**.
--   **Data quality is as important as model architecture**---bias, noise, and poor labels degrade performance.
--   **AI models are only as good as the data they are trained on**---garbage in, garbage out.
--   Data augmentation and synthetic data can **enhance training** when used correctly.
-
-
+- Neural networks mimic the brain's structure and learn from **layered computations**.
+- **Data quality is as important as model architecture**---bias, noise, and poor labels degrade performance.
+- **AI models are only as good as the data they are trained on**---garbage in, garbage out.
+- Data augmentation and synthetic data can **enhance training** when used correctly.
