@@ -19,7 +19,6 @@ By the end of this module, you will be able to:
 
 | Lesson | Est. Delivery Time | Skills |
 | ------ |:------------------:| ------ |
-| [Setup](../setup/README.md)  | 2 min | Set up the development environment. |
 | [Intro to Neural Networks](../intro-to-neural-networks/README.md) | 20 min | Neural network fundamentals and core training concepts.              |
 | [Deep Learning Architectures](../deep-learning-architectures/README.md) | 20 min | Deep learning architectures (FNNs, CNNs, RNNs, Transformers), their functions, applications, and advanced techniques for AI model optimization. |
 | [AI Architectures for Different Data Modalities](../ai-architectures-for-different-data-modalities/README.md) | 25 min | AI architectures for structured, image, and text data; their challenges, optimization techniques, and real-world applications. |
