@@ -7,14 +7,14 @@
 ## **Lesson Objectives**
 By the end of this lesson, students will be able to:
 - Identify key deep learning architectures and their applications.
-- Understand the differences between FNNs, CNNs, RNNs, and Transformers.
+- Compare and contrast the differences between FNNs, CNNs, RNNs, and Transformers.
 - Implement a basic CNN model for image classification.
-- Load and fine-tune a Transformer model for text classification.
+- Load and fine-tune a pre-trained Transformer model for text classification.
 
 ---
 
 ## **What is a Deep Learning Architecture?**
-Deep learning architectures define **how neural networks process and learn from data**. Different architectures are optimized for different types of input data, such as structured numbers, images, or text.
+Deep learning architectures define **how neural networks are structured to process and learn from data.**. Different architectures are optimized for different types of input data, such as structured numbers, images, or text.
 
 > **Key Takeaway:** The choice of architecture impacts model performance, efficiency, and suitability for specific AI tasks.
 
@@ -33,14 +33,14 @@ graph TD;
 </div>
 
 ### **Feedforward Neural Networks (FNNs)**
-Used primarily for structured/tabular data. These networks process inputs in a single direction, from input to output.
+Used primarily for structured/tabular data. Information flows in a single direction, from input to output, without loops or memory.
 
 ### **Convolutional Neural Networks (CNNs)**
-Designed for **image processing**, CNNs extract spatial patterns using convolutional layers.
+Designed for **image processing**, CNNs are designed for image and spatial data processing, using convolutional layers to automatically extract meaningful spatial patterns such as edges and textures.
 
 
 ### **Recurrent Neural Networks (RNNs)**
-Specialized for **sequential data**, where order matters.
+Specialized for **sequential data**, where the order of inputs matters, such as time-series data, speech, or text.
 
 
 ---
@@ -53,7 +53,7 @@ Specialized for **sequential data**, where order matters.
 
  
 **About the MNIST Dataset:**
-> The MNIST dataset is a collection of **70,000 grayscale images of handwritten digits** (0-9), commonly used for training image classification models. Each image is 28x28 pixels and labeled with its corresponding digit. MNIST serves as a benchmark dataset for testing different machine learning and deep learning techniques, making it an ideal starting point for working with Convolutional Neural Networks (CNNs).
+> The MNIST dataset is a collection of **70,000 grayscale images of handwritten digits** (0-9), commonly used for training image classification models. Each image is 28x28 pixels and labeled with its corresponding digit. MNIST serves as a benchmark dataset for experimenting with and evaluating image classification models, and deep learning techniques, making it an ideal starting point for working with Convolutional Neural Networks (CNNs).
 
 ### **Python Code:**
 ```python
@@ -89,10 +89,10 @@ model.fit(x_train[..., None], y_train, epochs=3, validation_data=(x_test[..., No
 
 ### **Why Transformers?**
 - Overcame the limitations of RNNs in processing sequential data.
-- Introduced the concept of **self-attention**, which allows models to focus on important words or pixels.
+- Introduced the concept of **self-attention**, enabling models to focus on the most relevant parts of an input sequence.
 
 
-#### Sequential Proccessing in RNNs
+#### Sequential Processing in RNNs
 <div class="mermaid">
 graph LR;
     A[Input Sequence] -->|Token 1| B[RNN Step 1];
@@ -109,7 +109,7 @@ graph LR;
     C -->|Processed Features| D[Final Output Predictions];
 </div>
 
-> **Key Takeaway**: Transformers are faster than RNNs because they process all input tokens simultaneously using self-attention, whereas RNNs process tokens sequentially, making them slower and less efficient for long sequences.
+> **Key Takeaway**: Transformers are fasterand more scalable than RNNs because they process all input tokens in parallel using self-attention, whereas RNNs process tokens sequentially, making them slower and less efficient for long sequences.
 
 
 **Example Applications:**
@@ -142,9 +142,9 @@ print(classifier("I did not enjoy this product at all."))
 ---
 
 ## **Summary & Key Takeaways**
-- Different deep learning architectures specialize in different data types.
-- CNNs excel at **image processing**, while Transformers dominate **text and multimodal tasks**.
-- **Choosing the right architecture is essential for model performance and efficiency**.
+- Different deep learning architectures are optimized for different data types and tasks
+- CNNs excel at **image and spatial data processing**, while Transformers dominate **text and multimodal applications.**.
+- **Selecting the right architecture is critical for model performance and efficiency**.
 - Pre-trained models can **reduce training time and improve results**.
 
 
