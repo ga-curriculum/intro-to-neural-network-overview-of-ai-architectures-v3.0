@@ -73,7 +73,7 @@ pie
 
 </div>
 
-**Data Size & Diversity:** Ensures broader pattern recognition and reduces overfitting.
+**Data Size & Diversity:** Ensures broader pattern recognition and reduces overfitting. 
 
 
 **Labeling Quality:** Inconsistent labels introduce noise and degrade learning.
