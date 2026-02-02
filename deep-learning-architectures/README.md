@@ -143,8 +143,8 @@ print(classifier("I did not enjoy this product at all."))
 
 ## **Summary & Key Takeaways**
 - Different deep learning architectures are optimized for different data types and tasks
-- CNNs excel at **image and spatial data processing**, while Transformers dominate **text and multimodal applications.**.
-- **Selecting the right architecture is critical for model performance and efficiency**.
+- CNNs excel at **image and spatial data processing**, while Transformers dominate **text and multimodal applications**.
+- **Selecting** the right architecture is critical for **model performance and efficiency**.
 - Pre-trained models can **reduce training time and improve results**.
 
 
