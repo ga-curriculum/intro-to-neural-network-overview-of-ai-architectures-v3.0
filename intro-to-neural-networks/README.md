@@ -73,15 +73,15 @@ pie
 
 </div>
 
-**Data Size & Diversity:** Avoids overfitting, ensures generalization.
+**Data Size & Diversity:** Ensures broader pattern recognition and reduces overfitting.
 
-**Labeling Quality:** Inaccurate labels introduce noise and reduce model accuracy.
+**Labeling Quality:** inconsistent labels introduce noise and degrade learning.
 
 **Bias in Data:** Reinforces discrimination in AI models.
 
-**Noise & Outliers:** Leads to unstable and unreliable model predictions.
+**Noise & Outliers:** Excessive noise leads to unstable and unreliable predictions.
 
-**Synthetic Data & Augmentation:** Expand datasets and improve model robustness.
+**Synthetic Data & Augmentation:** Expand datasets and improve model robustness
 
 > **Key Takeaway:** Even the most advanced neural network cannot compensate for poor-quality data. **High-quality, diverse, and well-labeled datasets are critical for robust AI models.**
 
