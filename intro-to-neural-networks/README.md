@@ -73,10 +73,9 @@ pie
 
 </div>
 
-**Data Size & Diversity:** Ensures broader pattern recognition and reduces overfitting. 
+**Data Size & Diversity:** Avoids overfitting, ensures generalization.
 
-
-**Labeling Quality:** Inconsistent labels introduce noise and degrade learning.
+**Labeling Quality:** Inaccurate labels introduce noise and reduce model accuracy.
 
 **Bias in Data:** Reinforces discrimination in AI models.
 
