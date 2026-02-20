@@ -10,6 +10,7 @@ By the end of this lesson, students will be able to:
 - Compare and contrast the differences between FNNs, CNNs, RNNs, and Transformers.
 - Implement a basic CNN model for image classification.
 - Load and fine-tune a pre-trained Transformer model for text classification.
+- Understand LLMs (Large Language Models) and their relationship to Transformers
 
 ---
 
