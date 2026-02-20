@@ -7,16 +7,16 @@
 
 By the end of this lesson, students will be able to:
 
-- Understand the fundamental structure of a neural network.
+- Describe the fundamental structure of a neural network.
 - Explain how neural networks learn from data.
-- Identify why data quality is critical for AI model performance.
-- Recognize common data-related issues that impact neural networks (bias, noise, augmentation, and synthetic data).
+- Analyze why data quality directly impacts AI model performance.
+- Identify and evaluate common data-related issues that impact neural networks (bias, noise, augmentation, and synthetic data).
 
 ---
 
 ## **What is a Neural Network?**
 
-Neural networks are a type of machine learning model inspired by the human brain. They consist of interconnected layers of artificial neurons that process input data to identify patterns and make predictions.
+Neural networks are a class of machine learning model inspired by the structure and functioning of human brain. They consist of interconnected layers of artificial neurons that process input data to identify patterns and make predictions.
 
 ### **Basic Components of a Neural Network**
 
@@ -53,13 +53,12 @@ sequenceDiagram
 
 </div>
 
-> **Key Takeaway:** Neural networks **learn from data**, and the quality of that data directly affects their ability to generalize and make accurate predictions.
-
+> **Key Takeaway:** Neural networks **learn patterns from data**, and the quality of that data directly determines how well they generalize to unseen, real-world inputs.
 ---
 
 ## **Importance of Data Quality in Neural Networks**
 
-Neural networks rely on data to learn patterns and make predictions. Poor data quality can lead to **overfitting, bias, and poor generalization** to real-world scenarios.
+Neural networks rely on data to learn patterns and make predictions. Poor data quality can lead to **overfitting, biased predictions, and weak generalization** to real-world scenarios.
 
 ### **Key Factors Affecting Data Quality**
 
@@ -74,15 +73,15 @@ pie
 
 </div>
 
-**Data Size & Diversity:** Avoids overfitting, ensures generalization.
+**Data Size & Diversity:** Ensures broader pattern recognition and reduces overfitting.
 
-**Labeling Quality:** Inaccurate labels introduce noise and reduce model accuracy.
+**Labeling Quality:** Inconsistent labels introduce noise and degrade learning.
 
 **Bias in Data:** Reinforces discrimination in AI models.
 
-**Noise & Outliers:** Leads to unstable model predictions.
+**Noise & Outliers:** Excessive noise leads to unstable and unreliable predictions.
 
-**Synthetic Data & Augmentation:** Expands datasets to improve learning.
+**Synthetic Data & Augmentation:** Expand datasets and improve model robustness
 
 > **Key Takeaway:** Even the most advanced neural network cannot compensate for poor-quality data. **High-quality, diverse, and well-labeled datasets are critical for robust AI models.**
 
@@ -90,7 +89,7 @@ pie
 
 ## **Guided Walkthrough: Understanding Data Quality in Neural Networks**
 
-In this guided walkthrough, follow along as your instrcutor talks through the different aspects of the code. You can also code along during the walkthrough and execute the code in your notebook for this lesson.
+In this guided walkthrough, follow along as your instructor explains the key components of the code. You can also code along during the walkthrough and execute the code in your notebook for this lesson.
 
 #### **Walkthrough Steps:**
 
@@ -108,7 +107,7 @@ In this guided walkthrough, follow along as your instrcutor talks through the di
 
     - Why data quality is as important as model architecture.
 
-3.  Be prepared to discuss the reflection questions with the class once the walkthrough is complete!
+3.  Be prepared to reflect on and discuss the following questions after the walkthrough.
 
 #### **Python Code:**
 
@@ -175,7 +174,7 @@ print("Dataset 3 Accuracy:", train_model(X3, y3))
 
 ## **Summary & Key Takeaways**
 
-- Neural networks mimic the brain's structure and learn from **layered computations**.
+- Neural networks mimic the brain's structure and learn through **layered computations**.
 - **Data quality is as important as model architecture**---bias, noise, and poor labels degrade performance.
-- **AI models are only as good as the data they are trained on**---garbage in, garbage out.
-- Data augmentation and synthetic data can **enhance training** when used correctly.
+- **AI systems follow the principle of**---garbage in, garbage out.
+- Data augmentation and synthetic data can **strengthen model training and generalization** when used correctly.

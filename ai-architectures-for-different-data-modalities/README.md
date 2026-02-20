@@ -5,15 +5,15 @@
 
 ## **Lesson Objectives**
 By the end of this lesson, students will be able to:
-- Identify different AI architectures suited for structured, image, text, and sequential data.
-- Understand the challenges associated with different data modalities.
-- Select the most appropriate AI model based on data type and real-world constraints.
-- Explore how multimodal AI systems integrate multiple architectures for complex tasks.
+- Identify AI architectures best suited for structured, image, text, and sequential data.
+- Explain the key challenges associated with different data modalities.
+- Select and justify the most appropriate AI model based on data type and real-world constraints.
+- Describe how multimodal AI systems integrate multiple architectures for complex tasks.
 
 ---
 
 ## **Understanding Data Modalities in AI**
-AI models are designed to process different **types of data**, referred to as **data modalities**. The effectiveness of an AI system depends on selecting the right architecture for the specific data type.
+AI models are designed to process different **types of data**, referred to as **data modalities**. The effectiveness of an AI system depends on selecting an architecture that aligns with the characteristics and constraints of the underlying data.
 
 ### **Common Data Modalities and Their Challenges**
 
@@ -26,9 +26,9 @@ graph TD;
 </div>
 
 ### **Key Challenges by Data Type:**
-- **Structured Data:** Requires feature engineering; deep learning is not always necessary.
+- **Structured Data:** Often requires extensive feature engineering; deep learning may not always be the most efficient approach.
 - **Image Data:** High-dimensional, requires spatial feature extraction.
-- **Text Data:** Requires context understanding, traditional models struggle with long dependencies.
+- **Text Data:** Requires contextual understanding; traditional sequence models struggle with long-range dependencies
 - **Sequential Data:** Capturing temporal dependencies is challenging, especially for long sequences.
 
 ---
@@ -43,7 +43,7 @@ Each AI architecture is optimized for specific data types:
 | **Text Data** | Transformers (e.g., BERT, GPT) | Sentiment analysis, chatbots |
 | **Sequential Data** | RNNs, Transformers | Speech recognition, stock price forecasting |
 
-> **Key Takeaway:** The success of an AI model depends not only on the model itself but also on how well it fits the data modality.
+> **Key Takeaway:** The success of an AI system depends not only on model complexity, but on how well the chosen architecture aligns with the data modality and problem constraints.
 
 ---
 
@@ -53,9 +53,9 @@ Each AI architecture is optimized for specific data types:
 Multimodal AI systems combine multiple types of input data, such as text, images, and audio, to improve predictions and decision-making. These systems leverage different AI architectures for each modality and fuse their outputs.
 
 #### **Example Applications:**
-- **Self-driving cars:** Use cameras (CNNs), lidar data (FNNs), and textual navigation inputs (Transformers).
-- **Medical diagnosis:** Combines patient history (FNNs) with medical imaging (CNNs) and doctor notes (Transformers).
-- **E-commerce recommendations:** Uses purchase history (FNNs), product images (CNNs), and customer reviews (Transformers).
+- **Self-driving cars:** Combine cameras (CNNs), lidar data (FNNs), and textual navigation inputs (Transformers).
+- **Medical diagnosis:** Integrate patient history (FNNs) with medical imaging (CNNs) and doctor notes (Transformers).
+- **E-commerce recommendations:** Fuse purchase history (FNNs), product images (CNNs), and customer reviews (Transformers).
 
 ---
 
@@ -106,9 +106,9 @@ multimodal_model.summary()
 ---
 
 ## **Summary & Key Takeaways**
-- Different AI architectures are **optimized for different types of data**.
-- **Multimodal AI integrates multiple architectures** to process different types of input simultaneously.
-- **Combining text, images, and structured data** enables more powerful AI applications.
+- Different AI architectures are **optimized for specific data modalities.**.
+- **Multimodal AI integrates multiple architectures** to process heterogeneous data sources.
+- **Combining text, images, and structured data** enables more accurate predictions.
 - **Training multimodal models is more complex** but allows AI systems to make better-informed decisions.
 
 
