@@ -141,10 +141,52 @@ print(classifier("I did not enjoy this product at all."))
 
 ---
 
+## **From Transformers to Large Language Models (LLMs)**
+
+### **What is an LLM?**
+Large Language Models (LLMs) are Transformers trained at **massive scale** — on billions or trillions of tokens of text — giving them broad, general-purpose language capabilities. Where earlier Transformer models like BERT were trained for a specific task (e.g., classification), LLMs like GPT are trained to understand and generate language across virtually any topic or task.
+
+> **Key Takeaway:** An LLM is not a fundamentally different architecture — it is the Transformer architecture pushed to scale, with the emergent ability to generalize far beyond any single task.
+
+### **The Shift: From Task-Specific to General-Purpose Models**
+
+<div class="mermaid">
+graph LR;
+    A[Early Transformers] -->|Trained for one task| B[BERT: Classification];
+    A -->|Trained for one task| C[T5: Translation];
+    D[Large Language Models] -->|Trained on broad data| E[GPT: Generation];
+    D -->|One model, many tasks| F[Summarization, Q&A, Code, Chat...];
+</div>
+
+| Model Type | Example | Training Approach | Primary Use |
+|---|---|---|---|
+| Task-Specific Transformer | BERT | Labeled task data | Classification, NER |
+| General-Purpose LLM | GPT-4, Claude, Gemini | Self-supervised on massive text | Generation, reasoning, summarization |
+| Domain-Specific LLM | Med-PaLM | Fine-tuned on domain data | Healthcare Q&A, clinical notes |
+
+### **Core LLM Capabilities**
+- **Text Generation** — drafting emails, reports, and code.
+- **Summarization** — condensing long documents into key points.
+- **Question Answering** — retrieving and reasoning over information.
+- **Classification & Extraction** — categorizing content, pulling structured data from unstructured text.
+- **Conversation** — maintaining context across multi-turn dialogue.
+
+### **Why This Matters for You**
+LLMs are the foundation of the generative AI tools transforming business workflows today — from customer support chatbots to document automation to code assistants. Understanding that they are built on the same Transformer architecture you just learned means you already have the conceptual foundation.
+
+In **Day 5**, we will go deeper: how to fine-tune LLMs for specific tasks, when to use Retrieval-Augmented Generation (RAG) instead of fine-tuning, and how LLMs power autonomous AI agent workflows.
+
+### **Discussion Questions:**
+- Can you think of a business process in your organization where an LLM's text generation or summarization capability could save time?
+- What risks might come with using a general-purpose LLM versus a task-specific model?
+
+---
+
 ## **Summary & Key Takeaways**
 - Different deep learning architectures specialize in different data types.
 - CNNs excel at **image processing**, while Transformers dominate **text and multimodal tasks**.
 - **Choosing the right architecture is essential for model performance and efficiency**.
 - Pre-trained models can **reduce training time and improve results**.
+- LLMs are **Transformers at scale** — the same architecture, trained on vastly more data to achieve general-purpose language understanding and generation.
 
 
